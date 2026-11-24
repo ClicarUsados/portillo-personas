@@ -1,0 +1,38 @@
+concepto,peso,cluster,polaridad,n_textos,estabilidad,ejemplo_row_id,etiqueta
+atención,100.0,A2,valor,17,0.59,CR_2025-Venta-Usados#3172,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · cluster inestable [HIPÓTESIS]
+excelente,51.0,A0,valor,6,0.68,CR_2025-Venta-Usados#3762,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago
+excelente atención,40.1,A1,valor,4,0.16,CR_2025-Venta-Usados#3172,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · cluster inestable [HIPÓTESIS]
+rapidez,39.1,A3,valor,4,0.55,CR_2025-Venta-Usados#3554,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · cluster inestable [HIPÓTESIS]
+rápido,33.6,A3,valor,4,0.55,CR_2025-Venta-Usados#3630,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · cluster inestable [HIPÓTESIS]
+auto,31.0,A0,valor,6,0.68,CR_2025-Venta-Usados#3426,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago
+vendedor,30.1,A3,valor,6,0.55,CR_2025-Venta-Usados#3426,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · cluster inestable [HIPÓTESIS]
+amable,28.7,A1,valor,3,0.16,CR_2025-Venta-Usados#3426,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · cluster inestable [HIPÓTESIS]
+dispuesto,24.7,A1,valor,2,0.16,CR_2025-Venta-Usados#3512,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · n<3 [HIPÓTESIS] · cluster inestable [HIPÓTESIS]
+atención amable,24.7,A1,valor,2,0.16,CR_2025-Venta-Usados#78,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · n<3 [HIPÓTESIS] · cluster inestable [HIPÓTESIS]
+empático,23.2,A1,valor,2,0.16,CR_2025-Venta-Usados#3381,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · n<3 [HIPÓTESIS] · cluster inestable [HIPÓTESIS]
+atento,20.6,A0,valor,2,0.68,CR_2025-Venta-Usados#3512,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · n<3 [HIPÓTESIS]
+solucionar,20.1,A1,valor,2,0.16,CR_2025-Venta-Usados#3272,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · n<3 [HIPÓTESIS] · cluster inestable [HIPÓTESIS]
+ayudar,19.6,A0,valor,2,0.68,CR_2025-Venta-Usados#3762,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · n<3 [HIPÓTESIS]
+duda,19.6,A0,valor,2,0.68,CR_2025-Venta-Usados#3551,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · n<3 [HIPÓTESIS]
+atención vendedor,18.7,A3,valor,2,0.55,CR_2025-Venta-Usados#3434,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · n<3 [HIPÓTESIS] · cluster inestable [HIPÓTESIS]
+limpieza,17.5,ruido,neutro,2,NA,CR_2025-Venta-Usados#3316,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · n<3 [HIPÓTESIS]
+compra,16.9,A0,valor,3,0.68,CR_2025-Venta-Usados#3172,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago
+lento,16.8,ruido,neutro,2,NA,CR_2025-Venta-Usados#3630,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · n<3 [HIPÓTESIS]
+proceso,16.5,ruido,valor,3,NA,CR_2025-Venta-Usados#3630,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago
+ejecutivo,100.0,D2,dolor,306,0.96,CR_Lead-Portillo_202#2,[DATO] VU detractores grupo + CR_Lead-Portillo
+contacto,94.7,D2,dolor,279,0.96,CR_Lead-Portillo_202#2,[DATO] VU detractores grupo + CR_Lead-Portillo
+contacto ejecutivo,94.2,D2,dolor,276,0.96,CR_Lead-Portillo_202#2,[DATO] VU detractores grupo + CR_Lead-Portillo
+vehículo,88.0,D1,dolor,134,0.87,CR_2025-Venta-Usados#3326,[DATO] VU detractores grupo + CR_Lead-Portillo
+entregar,56.1,D1,dolor,83,0.87,CR_2025-Venta-Usados#1089,[DATO] VU detractores grupo + CR_Lead-Portillo
+entrega,44.8,D1,dolor,60,0.87,CR_2025-Venta-Usados#585,[DATO] VU detractores grupo + CR_Lead-Portillo
+información,37.5,D1,dolor,56,0.87,CR_2025-Venta-Usados#3326,[DATO] VU detractores grupo + CR_Lead-Portillo
+opción,35.0,D0,dolor,59,0.56,CR_Lead-Portillo_202#3,[DATO] VU detractores grupo + CR_Lead-Portillo · cluster inestable [HIPÓTESIS]
+seminuevo,100.0,sin cluster (n<20 consultas),intención,11,NA,BQ-008,[WEB] research/15_busqueda_premium.md §2-3
+usado,80.6,sin cluster (n<20 consultas),intención,10,NA,BQ-008,[WEB] research/15_busqueda_premium.md §2-3
+auto usado,62.6,sin cluster (n<20 consultas),intención,7,NA,BQ-025,[WEB] research/15_busqueda_premium.md §2-3
+condes,53.6,sin cluster (n<20 consultas),intención,5,NA,BQ-025,[WEB] research/15_busqueda_premium.md §2-3
+vitacura,50.4,sin cluster (n<20 consultas),intención,5,NA,BQ-025,[WEB] research/15_busqueda_premium.md §2-3
+premium,44.5,sin cluster (n<20 consultas),intención,4,NA,BQ-008,[WEB] research/15_busqueda_premium.md §2-3
+providencia,35.0,sin cluster (n<20 consultas),intención,3,NA,BQ-008,[WEB] research/15_busqueda_premium.md §2-3
+seminuevo premium,35.0,sin cluster (n<20 consultas),intención,3,NA,BQ-025,[WEB] research/15_busqueda_premium.md §2-3
+garantir,33.4,sin cluster (n<20 consultas),intención,3,NA,BQ-008,[WEB] research/15_busqueda_premium.md §2-3

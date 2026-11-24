@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tomás Pascual · Cliente ideal Seminuevos Premium Portillo · USO INTERNO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,500;1,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:"FF Good Pro";font-style:italic;font-weight:400;src:url("assets/brand/fonts/ff-good-pro-italic.ttf") format("truetype")}
+@font-face{font-family:"FF Good Pro";font-style:italic;font-weight:500;src:url("assets/brand/fonts/ff-good-pro-medium-italic.ttf") format("truetype")}
+@font-face{font-family:"FF Good Pro";font-style:italic;font-weight:700;src:url("assets/brand/fonts/ff-good-pro-bolditalic.ttf") format("truetype")}
+:root{
+  --brand:#212c35;--ink:#212c35;--mute:#56606b;--line:#d9e0e6;--paper:#eef2f5;--card:#ffffff;--quote:#f1f4f7;
+  --display:"FF Good Pro","Barlow Semi Condensed",Arial,sans-serif;
+  --text:Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --dato:#1e6b47;--dato-bg:#e3f2ea;
+  --plan:#4b3f9e;--plan-bg:#ebe8f8;
+  --web:#8c2a6b;--web-bg:#f6e6ef;
+  --ilu:#7a5200;--ilu-bg:#f8edd3;
+  --hip:#a3361f;--hip-bg:#fbe5df;
+  --nv:#434a52;--nv-bg:#e5e8eb;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font:15px/1.6 var(--text)}
+.hero{background:var(--brand);color:#fff;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+.hero-top{display:flex;justify-content:space-between;align-items:center;gap:14px 20px;flex-wrap:wrap;padding:18px 0;border-bottom:1px solid rgba(255,255,255,.16)}
+.logo{display:block;width:230px;height:auto}
+.band{font-size:11.5px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;background:rgba(255,255,255,.1);padding:6px 12px;border-radius:999px}
+.hero-body{display:flex;gap:28px;align-items:center;padding:28px 0 32px}
+.hero-text{min-width:0}
+.kicker{margin:0;font-size:12.5px;font-weight:600;opacity:.8;text-transform:uppercase;letter-spacing:.1em}
+h1{font-family:var(--display);font-style:italic;font-weight:700;font-size:52px;line-height:1;margin:6px 0 10px;letter-spacing:-.01em}
+.tagline{font-family:var(--display);font-style:italic;font-weight:500;font-size:21px;line-height:1.3;margin:0 0 10px}
+.meta{margin:0;font-size:13px;opacity:.92}
+.hero .chip{background:#fff}
+.face{flex:0 0 148px;width:148px;height:148px;border-radius:50%;overflow:hidden;border:3px solid #fff;background:var(--brand);display:grid;place-items:center;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.face span{font-family:var(--display);font-style:italic;font-weight:700;font-size:48px;color:#fff;letter-spacing:.02em}
+main{max-width:980px;margin:0 auto;padding:24px 20px 60px}
+section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 24px;margin:0 0 16px;box-shadow:0 1px 2px rgba(33,44,53,.05)}
+h2{font-family:var(--display);font-style:italic;font-weight:700;font-size:26px;line-height:1.15;margin:0 0 14px;color:var(--brand)}
+h3{margin:0 0 8px;font-size:14px}
+h4{margin:0 0 6px;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--mute)}
+ul,ol{margin:0;padding-left:20px}
+li{margin:0 0 6px}
+.chip{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.05em;padding:2px 7px;border:1px solid;border-radius:999px;margin-left:3px;vertical-align:1px;white-space:nowrap;line-height:1.5}
+.chip.dato{color:var(--dato);background:var(--dato-bg);border-color:var(--dato)}
+.chip.plan{color:var(--plan);background:var(--plan-bg);border-color:var(--plan)}
+.chip.web{color:var(--web);background:var(--web-bg);border-color:var(--web)}
+.chip.ilu{color:var(--ilu);background:var(--ilu-bg);border-color:var(--ilu)}
+.chip.hip{color:var(--hip);background:var(--hip-bg);border-color:var(--hip)}
+.chip.nv{color:var(--nv);background:var(--nv-bg);border-color:var(--nv);border-style:dashed}
+.leg{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:var(--mute)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px 24px}
+.kv{display:flex;flex-direction:column;border-top:1px solid var(--line);padding-top:8px}
+.k{font-size:11.5px;font-weight:600;color:var(--mute);text-transform:uppercase;letter-spacing:.06em}
+blockquote{margin:12px 0 0;padding:11px 14px;border-left:4px solid var(--brand);background:var(--quote);border-radius:0 10px 10px 0;font-style:italic}
+cite{display:block;font-style:normal;font-size:12px;color:var(--mute);margin-top:4px}
+.voice .v{font-family:var(--display);font-style:italic;font-weight:500;font-size:23px;line-height:1.4;margin:0 0 10px}
+.note{font-size:12.5px;color:var(--mute)}
+.emp{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.q{border:1px solid var(--line);border-radius:12px;padding:14px;background:#fbfcfd}
+.tw{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:640px}
+th,td{text-align:left;vertical-align:top;padding:10px;border-top:1px solid var(--line)}
+thead th{font-size:11.5px;font-weight:600;color:var(--mute);text-transform:uppercase;letter-spacing:.05em}
+tbody th{white-space:nowrap;color:var(--brand)}
+.funnel{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0}
+.funnel>div{border:1px solid var(--line);border-top:4px solid var(--brand);border-radius:12px;padding:14px}
+.funnel p{margin:0}
+.bar{display:grid;grid-template-columns:150px 1fr 90px;gap:12px;align-items:center;margin:8px 0}
+.track{height:10px;background:var(--line);border-radius:6px;overflow:hidden}
+.fill{display:block;height:100%}
+.fill.dato{background:var(--dato)}
+.fill.plan{background:var(--plan)}
+.fill.web{background:var(--web)}
+.fill.ilu{background:var(--ilu)}
+.fill.hip{background:var(--hip)}
+.fill.nv{background:var(--nv)}
+.pct{font-size:13px;color:var(--mute);text-align:right}
+.pending{border:2px dashed #97a3ad;border-radius:12px;aspect-ratio:16/9;display:grid;place-items:center;text-align:center;color:var(--mute);font-size:14px;background:#f6f8fa;padding:12px}
+footer{font-size:12px;color:var(--mute);padding:8px 4px}
+@media (max-width:720px){
+  .wrap{padding:0 16px}
+  main{padding:18px 16px 40px}
+  section{padding:18px 16px}
+  .grid2,.emp,.funnel{grid-template-columns:1fr}
+  .hero-body{flex-direction:column-reverse;align-items:flex-start;gap:20px}
+  .face{width:124px;height:124px;flex-basis:124px}
+  .face span{font-size:40px}
+  h1{font-size:40px}
+  .tagline{font-size:19px}
+  .bar{grid-template-columns:110px 1fr 76px}
+}
+@page{size:A4;margin:12mm}
+@media print{
+  body{background:#fff}
+  section{box-shadow:none;break-inside:avoid}
+  .hero{print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .funnel>div,.q,blockquote{break-inside:avoid}
+}
+</style></head><body>
+<header class="hero"><div class="wrap">
+  <div class="hero-top">
+    <img class="logo" src="assets/brand/logos/PORTILLO_PREMIUM_HORIZONTAL_BLANCO.svg" alt="Portillo Usados Premium" width="230" height="35">
+    <div class="band">USO INTERNO · Cliente ideal Seminuevos Premium Portillo · Zona Oriente RM · corte 2026-11-23</div>
+  </div>
+  <div class="hero-body">
+    <div class="hero-text">
+      <p class="kicker">Cliente ideal 2 de 2 · Providencia</p>
+      <h1>Tomás Pascual</h1>
+      <p class="tagline">“Si la ficha dice una cosa y en la sucursal es otra, me voy.” El comprador que llega por el auto publicado y lo compara todo.</p>
+      <p class="meta">Construido desde los mismos 60 promotores de la zona oriente <span class="chip dato">DATO</span>, con el contexto de Providencia <span class="chip web">WEB</span>. Rasgos personales inventados para humanizar <span class="chip ilu">ILUSTRATIVO</span>.</p>
+    </div>
+    <div class="face" aria-hidden="true"><span>TP</span></div>
+  </div>
+</div></header>
+<main>
+<section class="legend"><h3>Cómo leer esta ficha</h3><div class="leg"><span><span class="chip dato">DATO</span> encuestas de la carpeta, con n</span><span><span class="chip plan">PLAN</span> presentación del plan, 20-nov-2026</span><span><span class="chip web">WEB</span> fuente pública con URL</span><span><span class="chip ilu">ILUSTRATIVO</span> inventado para humanizar; no decide nada</span><span><span class="chip hip">HIPÓTESIS</span> inferencia a validar</span><span><span class="chip nv">NO VERIFICADO</span> sin fuente</span></div></section>
+<section><h2>Ficha</h2><div class="grid2"><div class="kv"><span class="k">Nombre y edad</span><span class="v">Tomás Pascual, 34 años <span class="chip ilu">ILUSTRATIVO</span></span></div><div class="kv"><span class="k">Dónde vive</span><span class="v">Providencia <span class="chip ilu">ILUSTRATIVO</span></span></div><div class="kv"><span class="k">Hogar y trabajo</span><span class="v">Vive en pareja, sin hijos; arquitecto independiente <span class="chip ilu">ILUSTRATIVO</span></span></div><div class="kv"><span class="k">Sucursal de referencia</span><span class="v">Portillo Usados Bilbao, Las Condes (14 promotores, la sucursal con más promotores) <span class="chip dato">DATO</span>. Que sea la que le queda más cerca es un supuesto <span class="chip hip">HIPÓTESIS</span></span></div><div class="kv"><span class="k">Qué compra</span><span class="v">SUV compacto o hatch bien equipado: 2008, 3008, Raize, Sonet y Lexus UX aparecen entre los promotores de la zona <span class="chip dato">DATO</span>. Asignarle este tipo de auto a Tomás es una decisión <span class="chip hip">HIPÓTESIS</span></span></div><div class="kv"><span class="k">Ticket</span><span class="v">Tramo objetivo $15–17 MM o más <span class="chip plan">PLAN</span>. Si un compacto entra en ese tramo: sin export de ventas <span class="chip nv">NO VERIFICADO</span></span></div><div class="kv"><span class="k">Parte de pago</span><span class="v">Probablemente no aplica: 34 de 60 promotores de la zona no usaron parte de pago <span class="chip dato">DATO</span>; que Tomás esté en ese grupo es un supuesto <span class="chip hip">HIPÓTESIS</span></span></div><div class="kv"><span class="k">Ingreso, pie y financiamiento</span><span class="v">Sin fuente <span class="chip nv">NO VERIFICADO</span>. Se valida con la pregunta 1 de abajo</span></div><div class="kv"><span class="k">Cómo llegó</span><span class="v">“El auto que quería estaba acá”: 16 de 60 (27 %), el motivo de llegada más frecuente de la zona; publicidad 9 y redes 8 <span class="chip dato">DATO</span>. Llega por el auto, no por la marca <span class="chip hip">HIPÓTESIS</span></span></div></div></section>
+<section><h2>Así se ve Tomás</h2><div class="pending">Imagen pendiente · ver PROMPT_IMAGEN.md</div></section>
+<section><h2>Detonante y contexto de uso</h2><ul><li>Quiere un auto mejor para salir de Santiago los fines de semana, no para el trayecto diario <span class="chip hip">HIPÓTESIS</span>.</li><li>En Providencia entre 10 % y 15 % camina al trabajo y más de 6 % va en bicicleta (Censo 2024, vía The Clinic) <span class="chip web">WEB</span>. El auto no es su medio diario <span class="chip hip">HIPÓTESIS</span>.</li><li>Los leads siguen al stock: cada auto publicado suma ~7,6 leads al mes (r = 0,90) <span class="chip plan">PLAN</span>. Tomás es ese lead que nace de un aviso <span class="chip hip">HIPÓTESIS</span>.</li></ul></section>
+<section><h2>Por qué elige Portillo</h2><ul><li><strong>El auto estaba:</strong> es el primer motivo de llegada en la zona (16 de 60) <span class="chip dato">DATO</span>.</li><li><strong>Le respondieron rápido y el proceso fue ágil:</strong> rapidez es el segundo motivo de los promotores de la zona (14 menciones) <span class="chip dato">DATO</span>.</li><li><strong>Seguridad en la transacción:</strong> comprar en una automotora con respaldo frente a un particular <span class="chip dato">DATO</span> <span class="chip hip">HIPÓTESIS</span>.</li></ul><blockquote>“Responden el correo de consulta por el aviso”<cite>CR_2025-Venta-Usados#3803 · Venta-Usados <span class="chip dato">DATO</span></cite></blockquote><blockquote>“Seguridad en la transaccion”<cite>CR_2025-Venta-Usados#4103 · Venta-Usados <span class="chip dato">DATO</span></cite></blockquote><blockquote>“Asesoria, rapidez en atención”<cite>CR_2025-Venta-Usados#3604 · Venta-Usados <span class="chip dato">DATO</span></cite></blockquote></section>
+<section><h2>Qué lo haría irse</h2><ul><li><strong>Ficha que no coincide con el auto:</strong> claridad de precio y ficha es un dolor del 39,9 % de los detractores del grupo; 5 de 10 detractores de Portillo <span class="chip dato">DATO</span>.</li><li><strong>Garantía corta:</strong> Portillo da 3 meses; el plan dice que Kavak da 12 y Bruno Fritsch 24 <span class="chip plan">PLAN</span>. Kavak publica “7 días o 300 km de prueba” y no meses de garantía, lo que contradice al plan <span class="chip web">WEB</span>. Sin resolver.</li><li><strong>Que no le respondan el aviso:</strong> 13,9 % de los leads que respondieron dice que ventas no lo contactó (60 de 431) <span class="chip dato">DATO</span>.</li><li><strong>Portillo no aparece cuando busca:</strong> 0 de 8 búsquedas clave en orgánico y la landing premium convierte 0,9 % (resto de usados: 2,3 %) <span class="chip plan">PLAN</span>.</li><li><strong>Compara con portales:</strong> Chileautos ofrece inspección pagada del auto antes de comprar (resultado de búsqueda) <span class="chip web">WEB</span>.</li></ul><blockquote>“Publicaron el auto que compré como 2024, pero era 2023.”<cite>CR_2025-Venta-Usados#3915 · Venta-Usados <span class="chip dato">DATO</span></cite></blockquote><blockquote>“Nunca me dejaron probar el auto.”<cite>CR_2025-Venta-Usados#3361 · Venta-Usados <span class="chip dato">DATO</span></cite></blockquote></section>
+<section class="voice"><h2>Su voz</h2><p class="v">“Antes de ir ya vi el auto en tres portales, leí reseñas y comparé garantías. Si me responden rápido y lo que está publicado es lo que firmo, compro. Si la ficha dice una cosa y en la sucursal es otra, me voy.”</p><p class="note">Parafraseada desde #3803, #4103 (promotores) y #3915, #3361 (dolores, Portillo) <span class="chip dato">DATO</span> <span class="chip ilu">ILUSTRATIVO</span>.</p></section>
+<section><h2>Mapa de empatía</h2><div class="emp"><div class="q"><h4>Piensa y siente</h4><ul><li>Teme pagar de más o comprar algo distinto a lo publicado <span class="chip dato">DATO</span>.</li><li>Quiere sentir que eligió bien, con datos <span class="chip hip">HIPÓTESIS</span>.</li></ul></div><div class="q"><h4>Oye</h4><ul><li>Reseñas en Google y comparaciones en portales <span class="chip hip">HIPÓTESIS</span>.</li><li>Mensajes de Kavak: “Fácil y seguro”, “7 días o 300 km de prueba” <span class="chip web">WEB</span>.</li></ul></div><div class="q"><h4>Ve</h4><ul><li>Portillo con 3,0 ★ frente a boutiques con 4,7–5,0 ★ <span class="chip plan">PLAN</span>.</li><li>Automotoras de marca y clasificados cuando busca seminuevos por comuna <span class="chip web">WEB</span>.</li></ul></div><div class="q"><h4>Dice y hace</h4><ul><li>Escribe al aviso antes de ir (#3803) <span class="chip dato">DATO</span>.</li><li>Pide probar el auto y ver la ficha completa <span class="chip hip">HIPÓTESIS</span>.</li></ul></div><div class="q"><h4>Esfuerzos y miedos</h4><ul><li>Ficha o año distinto a lo publicado (#3915) <span class="chip dato">DATO</span>.</li><li>Garantía corta frente a la competencia <span class="chip plan">PLAN</span>.</li></ul></div><div class="q"><h4>Resultados y éxito</h4><ul><li>Respuesta el mismo día y prueba de manejo agendada <span class="chip hip">HIPÓTESIS</span>.</li><li>Que lo firmado sea igual a lo publicado <span class="chip dato">DATO</span>.</li></ul></div></div></section>
+<section><h2>Journey en Portillo</h2><div class="tw"><table><thead><tr><th>Etapa</th><th>Canal y qué busca</th><th>Dolor que hay que resolverle</th><th>Qué hace Portillo (plan)</th></tr></thead><tbody><tr><th>Interés</th><td>Busca “seminuevos Providencia” o el modelo en portales <span class="chip web">WEB</span>.</td><td>Portillo no aparece en 0 de 8 búsquedas clave; 0,2 % de la pauta va a términos premium o de comuna <span class="chip plan">PLAN</span>.</td><td>S2: campaña Search premium y por comuna <span class="chip plan">PLAN</span>.</td></tr><tr><th>Consideración</th><td>Escribe al aviso, compara garantía y reseñas <span class="chip hip">HIPÓTESIS</span>.</td><td>13,9 % de leads sin contacto de ventas <span class="chip dato">DATO</span>; garantía de 3 meses <span class="chip plan">PLAN</span>.</td><td>Respuesta al aviso con nombre de ejecutivo <span class="chip hip">HIPÓTESIS</span>; garantía visible en la ficha <span class="chip plan">PLAN</span>.</td></tr><tr><th>Compra</th><td>Prueba el auto y firma con crédito o pie <span class="chip hip">HIPÓTESIS</span>.</td><td>Ficha o precio distintos a lo publicado <span class="chip dato">DATO</span>.</td><td>Ficha única con precio y cuota; inspección visible <span class="chip plan">PLAN</span>.</td></tr><tr><th>Retención</th><td>Espera la entrega y la factura <span class="chip hip">HIPÓTESIS</span>.</td><td>Entrega sin fecha: el dolor más frecuente del grupo (77,3 %) <span class="chip dato">DATO</span>.</td><td>Entrega dedicada y kit de entrega <span class="chip plan">PLAN</span>.</td></tr><tr><th>Advocacy</th><td>Deja reseña si se la piden en el momento <span class="chip hip">HIPÓTESIS</span>.</td><td>Reseñas de 3,0 ★ frente a 4,7–5,0 ★ <span class="chip plan">PLAN</span>.</td><td>QR de reseña en la entrega <span class="chip plan">PLAN</span>.</td></tr></tbody></table></div></section>
+<section><h2>Bajada de comunicación</h2><div class="grid2">
+      <div class="kv"><span class="k">Arquetipo de marca</span><span class="v">El Acompañante, con énfasis en transparencia: lo publicado es lo que firmas <span class="chip hip">HIPÓTESIS</span></span></div>
+      <div class="kv"><span class="k">Tono</span><span class="v">Directo, claro y con datos del auto, sin superlativos <span class="chip hip">HIPÓTESIS</span></span></div>
+      <div class="kv"><span class="k">Palabras bandera</span><span class="v">ficha completa · transparente · respuesta <span class="chip hip">HIPÓTESIS</span></span></div>
+      <div class="kv"><span class="k">Palabras prohibidas</span><span class="v">“usado” · “el mejor precio del mercado” · “inspección de X puntos” sin respaldo <span class="chip hip">HIPÓTESIS</span></span></div>
+    </div>
+    <div class="funnel">
+      <div><h4>TOFU</h4><p>Comparativas de SUV compactos seminuevos y landings por comuna (“seminuevos Providencia”) <span class="chip hip">HIPÓTESIS</span>.</p></div>
+      <div><h4>MOFU</h4><p>Ficha completa: historial, precio, cuota y qué cubre la garantía, sin prometer más que los 3 meses actuales <span class="chip hip">HIPÓTESIS</span> <span class="chip plan">PLAN</span>.</p></div>
+      <div><h4>BOFU</h4><p>Te respondemos el aviso hoy y te agendamos la prueba de manejo <span class="chip hip">HIPÓTESIS</span>. Requiere plazo de respuesta confirmado <span class="chip nv">NO VERIFICADO</span>.</p></div>
+    </div>
+    <h4>Qué del plan S1–S4 le habla</h4><ul><li>S2 Encender la demanda: Search premium y por comuna <span class="chip plan">PLAN</span>.</li><li>S3 Convertir mejor: landings SEO y ficha premium con garantía <span class="chip plan">PLAN</span>.</li><li>S1 Ordenar la casa: fichas de Google, para subir de 3,0 ★ <span class="chip plan">PLAN</span>.</li></ul></section>
+<section><h2>Estándar en sucursal que lo convence</h2><ul><li>Inspección y garantía visibles en cada auto <span class="chip plan">PLAN</span>.</li><li>Ficha única con precio y cuota, igual a la publicada <span class="chip plan">PLAN</span> <span class="chip hip">HIPÓTESIS</span>.</li><li>QR de reseña en la entrega <span class="chip plan">PLAN</span>.</li><li>Uniforme y trato diferenciado <span class="chip plan">PLAN</span>.</li></ul></section>
+<section><h2>Qué lo validaría (preguntas para sala)</h2><ol><li>¿Qué ticket, pie y forma de pago traen los compradores que vienen desde Providencia? <span class="chip nv">NO VERIFICADO</span></li><li>¿Cuántos llegan desde un aviso o portal y cuántos escriben antes de ir? <span class="chip nv">NO VERIFICADO</span></li><li>¿Con qué competidor comparan y qué garantía mencionan? <span class="chip nv">NO VERIFICADO</span></li><li>¿Cuánto tarda hoy la respuesta a un aviso? <span class="chip nv">NO VERIFICADO</span></li></ol></section>
+<section><h2>Bloqueos abiertos</h2><ul><li>Export de ventas ene–oct 2026 con ticket, modelo y comuna: Beto.</li><li>Lista de las 8 búsquedas clave y su medición: Beto.</li><li>Garantía de Kavak: 12 meses según el plan vs “7 días o 300 km” en su web: Beto / Marketing.</li><li>Marca que firma el seminuevo (Portillo o Clicar): Beto / Iván Balaguera / equipo comercial.</li></ul></section>
+<section><h2>Tarjeta de evidencia</h2><p class="note">Conteo de etiquetas en esta ficha (84 en total). Mide la forma de la evidencia, no su solidez.</p><div class="bar"><span class="lab"><span class="chip dato">DATO</span></span><span class="track"><span class="fill dato" style="width:21.4%"></span></span><span class="pct">18 · 21 %</span></div><div class="bar"><span class="lab"><span class="chip plan">PLAN</span></span><span class="track"><span class="fill plan" style="width:26.2%"></span></span><span class="pct">22 · 26 %</span></div><div class="bar"><span class="lab"><span class="chip web">WEB</span></span><span class="track"><span class="fill web" style="width:8.3%"></span></span><span class="pct">7 · 8 %</span></div><div class="bar"><span class="lab"><span class="chip ilu">ILUSTRATIVO</span></span><span class="track"><span class="fill ilu" style="width:6.0%"></span></span><span class="pct">5 · 6 %</span></div><div class="bar"><span class="lab"><span class="chip hip">HIPÓTESIS</span></span><span class="track"><span class="fill hip" style="width:29.8%"></span></span><span class="pct">25 · 30 %</span></div><div class="bar"><span class="lab"><span class="chip nv">NO VERIFICADO</span></span><span class="track"><span class="fill nv" style="width:8.3%"></span></span><span class="pct">7 · 8 %</span></div><p class="note">n que la respalda: 60 promotores de sucursales Portillo zona oriente <span class="chip dato">DATO</span>; dolores de 313 detractores del grupo y 10 de Portillo <span class="chip dato">DATO</span>; 431 leads con respuesta de contacto <span class="chip dato">DATO</span>. Ninguna encuesta registra comuna de residencia: Providencia es una decisión de Beto <span class="chip ilu">ILUSTRATIVO</span>.</p></section>
+<footer>Fuentes: research/11_promotores_seminuevo.md y 12_dolores_seminuevo.md (inputs_clean/CR_2025-Venta-Usados, campaña &quot;2025 - Venta Usados Portillo&quot;, n=114; 95 promotores) <span class="chip dato">DATO</span>; cruce zona oriente de este perfil: sucursales Portillo La Dehesa, Bilbao, Luis Carrera, Padre Hurtado, Las Condes y Vitacura, 60 promotores, script analisis/v3_oriente_promotores.py <span class="chip dato">DATO</span>; Plan Seminuevos Premium Zona Oriente RM, 20-nov-2026 (research/10_plan_premium.md) <span class="chip plan">PLAN</span>; research/13, 14 y 15 (URLs y fecha de consulta 2026-11-23) <span class="chip web">WEB</span>. Sin conversión lead→venta. Sin datos personales. No publicable.</footer>
+</main>
+</body></html>

@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fichas Javiera y Tomás Pascual · P2</title>
+<style>
+  :root {
+    --paper: #f7f4ee;
+    --ink: #1d1b18;
+    --ink-soft: #5b5650;
+    --rule: #d8d1c4;
+    --card: #fffdf8;
+    --dato: #1f5f8b;
+    --dato-bg: #e3eef6;
+    --ilus: #9a5b13;
+    --ilus-bg: #f6ead8;
+    --hip: #5b3f8c;
+    --hip-bg: #ece6f5;
+    --accent: #b23a2a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #17161a;
+      --ink: #efebe4;
+      --ink-soft: #b7b0a6;
+      --rule: #3a3742;
+      --card: #201f25;
+      --dato: #9fc8e6;
+      --dato-bg: #1f3445;
+      --ilus: #f0c08a;
+      --ilus-bg: #3b2c1a;
+      --hip: #c7b5ef;
+      --hip-bg: #2d2640;
+      --accent: #ff8a78;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #17161a;
+    --ink: #efebe4;
+    --ink-soft: #b7b0a6;
+    --rule: #3a3742;
+    --card: #201f25;
+    --dato: #9fc8e6;
+    --dato-bg: #1f3445;
+    --ilus: #f0c08a;
+    --ilus-bg: #3b2c1a;
+    --hip: #c7b5ef;
+    --hip-bg: #2d2640;
+    --accent: #ff8a78;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 1.55;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+  .band {
+    background: var(--accent);
+    color: #fff;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    padding: 10px 16px;
+    text-align: center;
+  }
+  header.cover { padding: 40px 0 24px; border-bottom: 2px solid var(--ink); }
+  .kicker { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); }
+  h1 { font-size: clamp(2rem, 1.2rem + 3vw, 3.2rem); line-height: 1.05; margin: 8px 0 12px; font-weight: 700; }
+  .lede { font-size: 1.08rem; max-width: 62ch; color: var(--ink-soft); margin: 0; }
+  h2 { font-size: clamp(1.6rem, 1.1rem + 1.5vw, 2.3rem); margin: 0 0 6px; font-weight: 700; }
+  h3 { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; margin: 28px 0 10px; color: var(--ink-soft); font-weight: 700; }
+  .legend {
+    margin: 24px 0; padding: 16px; background: var(--card);
+    border: 1px solid var(--rule); border-radius: 6px;
+    display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px;
+  }
+  .legend p { margin: 0; }
+  .chip {
+    display: inline-block; font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 11px; font-weight: 700; letter-spacing: .04em;
+    padding: 2px 7px; border-radius: 999px; white-space: nowrap; vertical-align: 1px;
+  }
+  .chip-dato { color: var(--dato); background: var(--dato-bg); border: 1px solid var(--dato); }
+  .chip-ilus { color: var(--ilus); background: var(--ilus-bg); border: 1px solid var(--ilus); }
+  .chip-hip { color: var(--hip); background: var(--hip-bg); border: 1px dashed var(--hip); }
+  .persona {
+    background: var(--card); border: 1px solid var(--rule); border-radius: 8px;
+    padding: clamp(18px, 3vw, 32px); margin: 36px 0; break-inside: auto;
+  }
+  .persona-head { display: grid; grid-template-columns: 96px 1fr; gap: 20px; align-items: center; border-bottom: 1px solid var(--rule); padding-bottom: 18px; }
+  .avatar { width: 96px; height: 96px; }
+  .tag { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12px; text-transform: uppercase; letter-spacing: .1em; color: var(--ink-soft); }
+  table { width: 100%; border-collapse: collapse; font-size: 14.5px; margin: 6px 0 4px; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 8px; border-bottom: 1px solid var(--rule); }
+  th { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--ink-soft); }
+  .scroll { overflow-x: auto; }
+  blockquote.voice {
+    margin: 10px 0; padding: 14px 18px; border-left: 4px solid var(--accent);
+    background: var(--paper); font-style: italic; font-size: 1.05rem;
+  }
+  .cite { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12px; color: var(--ink-soft); }
+  .empathy { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+  .quad { border: 1px solid var(--rule); border-radius: 6px; padding: 12px 14px; background: var(--paper); }
+  .quad h4 { margin: 0 0 6px; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 13px; text-transform: uppercase; letter-spacing: .06em; }
+  .quad p { margin: 0 0 6px; font-size: 14.5px; }
+  .note { font-size: 14px; color: var(--ink-soft); border-left: 3px solid var(--rule); padding-left: 12px; margin: 12px 0; }
+  .bloq { color: var(--accent); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 13px; font-weight: 700; }
+  .msg { margin: 6px 0; font-size: 15px; }
+  .compare td:first-child { font-weight: 700; width: 20%; }
+  footer { margin: 40px 0 60px; padding-top: 16px; border-top: 2px solid var(--ink); font-family: "Helvetica Neue", Arial, sans-serif; font-size: 13px; color: var(--ink-soft); }
+  @media (max-width: 640px) {
+    .persona-head { grid-template-columns: 1fr; }
+    .avatar { width: 72px; height: 72px; }
+  }
+  @media print {
+    body { background: #fff; color: #000; font-size: 11pt; }
+    .band { background: #fff; color: #000; border: 2px solid #000; }
+    .persona { break-inside: avoid-page; box-shadow: none; }
+    .quad, .legend, .persona { background: #fff; }
+    :root { --paper:#fff; --card:#fff; --ink:#000; --ink-soft:#333; --rule:#999; }
+    .chip-dato { color:#0b3b5c; background:#fff; }
+    .chip-ilus { color:#5a3300; background:#fff; }
+    .chip-hip { color:#3b2566; background:#fff; }
+  }
+</style>
+</head>
+<body>
+
+<div class="band">USO INTERNO · Personificación de la persona P2 · No publicable</div>
+
+<div class="wrap">
+
+<header class="cover">
+  <div class="kicker">Buyer personas Portillo · Momentos de la Verdad · Fecha de corte 2026-11-23</div>
+  <h1>Javiera y Tomás Pascual</h1>
+  <p class="lede">Dos caras de la misma persona P2: <em>el que no recibe respuesta, explicación ni buen trato</em>. Fichas para Beto, jefatura y comité. Ninguna decisión de pauta, segmentación o presupuesto se toma sobre la capa ilustrativa.</p>
+</header>
+
+<section class="legend" aria-label="Leyenda de capas">
+  <p><span class="chip chip-dato">DATO C-xx</span><br>Cifra o cita de la investigación, con su fila de <code>research/06_arquetipos_cliente.md</code> o su archivo de research.</p>
+  <p><span class="chip chip-ilus">ILUSTRATIVO</span><br>Rasgo inventado para humanizar: nombre, edad, comuna, familia, ocupación, escena. Solo para empatía.</p>
+  <p><span class="chip chip-hip">HIPÓTESIS / NO VERIFICADO</span><br>Lo que la investigación no mide o dice que falta validar. Las preguntas de la guía se citan como Q1 a Q10.</p>
+</section>
+
+<section aria-labelledby="sec-uno">
+  <h2 id="sec-uno">Cómo leer estas fichas</h2>
+  <p class="note"><strong>Diferencia entre Javiera y Tomás.</strong> Es de canal y de encuesta, no de persona. Venta (ZMOT y FMOT) y taller (SMOT y UMOT) vienen de instrumentos distintos y no comparten clave. Los umbrales también son distintos: venta usa nota 1-2 en detractores; taller usa nota ≤3. <strong>No comparar porcentajes entre las dos fichas.</strong></p>
+  <p class="note"><strong>Género.</strong> Es una decisión de representación, no un hallazgo. La única fuente con género es la encuesta de seguridad vial (n=709; solo clientes de auto nuevo; 2025-10-22 a 2025-10-29): 61,2 % masculino y 32,4 % femenino. No cruza con P2.</p>
+  <p class="note"><strong>Correcciones de verificación.</strong> C-08 y C-16 son ítems del pool UMOT (detractor o "no volvería"), no tasa de recomendación; la recomendación está en <code>04_umot_demografia.md</code> §1 y §3. C-20 se llama "mal trato" en el script y es el ítem "Acogida en sala de espera". C-05 convive con 275 de 431 que dicen "ya estoy en contacto" (contradicción #13, sin resolver).</p>
+</section>
+
+<!-- ============ JAVIERA ============ -->
+<article class="persona" aria-labelledby="javiera">
+  <div class="persona-head">
+    <svg class="avatar" viewBox="0 0 96 96" role="img" aria-label="Avatar genérico, ilustración sin rasgos de persona real">
+      <rect width="96" height="96" rx="48" fill="#e9d9c4"/>
+      <circle cx="48" cy="38" r="16" fill="#b68a62"/>
+      <path d="M20 84 C24 62 72 62 76 84 Z" fill="#7d5a45"/>
+      <path d="M32 30 Q48 14 64 30 Q60 24 48 22 Q36 24 32 30 Z" fill="#3b2a22"/>
+    </svg>
+    <div>
+      <div class="tag">Personificación 1 de 2 · Venta (ZMOT → FMOT)</div>
+      <h2 id="javiera">Javiera <span class="chip chip-ilus">ILUSTRATIVO</span></h2>
+      <p class="lede" style="margin:0">Profesora de inglés, 38 años, Maipú. Pide cotización, espera y se topa con precio que cambia y entrega sin fecha.</p>
+    </div>
+  </div>
+
+  <h3>1 · Ficha</h3>
+  <div class="scroll">
+  <table>
+    <tr><th>Campo</th><th>Valor</th><th>Etiqueta</th></tr>
+    <tr><td>Nombre</td><td>Javiera</td><td><span class="chip chip-ilus">ILUSTRATIVO</span></td></tr>
+    <tr><td>Edad, comuna</td><td>38 años · Maipú</td><td><span class="chip chip-ilus">ILUSTRATIVO</span> zona de clientes <span class="chip chip-hip">NO VERIFICADO</span> (Q10)</td></tr>
+    <tr><td>Familia</td><td>Pareja e hija de nueve años</td><td><span class="chip chip-ilus">ILUSTRATIVO</span></td></tr>
+    <tr><td>Ocupación</td><td>Profesora de inglés, dos colegios, horario partido</td><td><span class="chip chip-ilus">ILUSTRATIVO</span></td></tr>
+    <tr><td>Miedo dominante (P2)</td><td>Pedir algo y no recibir respuesta ni trato adecuado</td><td><span class="chip chip-dato">DATO C-05 · C-14 · C-18</span></td></tr>
+    <tr><td>Cara que más vive</td><td>Silencio (13,9 % dice "No" al contacto; 40,4 % en 2026, n=47) y después información (31,0 % de detractores de Venta-Nuevo)</td><td><span class="chip chip-dato">DATO C-05 · C-05-año · C-14</span> <span class="chip chip-hip">HIPÓTESIS</span> lectura del silencio como miedo dominante (275 de 431 dicen estar en contacto)</td></tr>
+    <tr><td>Trato</td><td>Menos marcado: atención del vendedor 21,3 % (Nuevo) y 26,8 % (Venta-Usados)</td><td><span class="chip chip-dato">DATO C-18</span></td></tr>
+    <tr><td>Ingreso, pie, modalidad de pago</td><td>—</td><td><span class="chip chip-hip">NO VERIFICADO</span> Q1, Q4</td></tr>
+    <tr><td>Parte de pago</td><td>—</td><td><span class="chip chip-hip">NO VERIFICADO</span> Q2</td></tr>
+    <tr><td>Quién decide</td><td>—</td><td><span class="chip chip-hip">NO VERIFICADO</span> Q10</td></tr>
+    <tr><td>Plazo de respuesta que espera</td><td>—</td><td><span class="chip chip-hip">NO VERIFICADO</span> Q3 · <span class="bloq">BLOQUEADO</span> equipo comercial Portillo / Beto</td></tr>
+  </table>
+  </div>
+
+  <h3>2 · Su historia con Portillo</h3>
+  <p><span class="chip chip-ilus">ILUSTRATIVO</span> Javiera llena el formulario de cotización de un auto nuevo una noche, entre dos reuniones de apoderados. Espera al día siguiente. Nada. Lo que le cuentan otros clientes, en sus propias palabras: <span class="chip chip-dato">DATO</span> "Solicite cotización y nadie me ha contactado hasta el momento" <span class="cite">(CR_Lead-Portillo_202#5)</span>. "Se suponía que me contactarían y no ha pasado nada" <span class="cite">(CR_Lead-Portillo_202#4)</span>. Ya en venta, el precio cambia: "Vendedora me dio un precio y despues lo subio" <span class="cite">(CR_2025-Venta-Nuevo_#476)</span>. Y en la espera de la entrega: "No me han entregado el auto y no responde el vendedor" <span class="cite">(CR_2025-Venta-Nuevo_#1879)</span>.</p>
+  <p class="note">La escena une citas de distintos clientes. No hay clave que las una a una misma persona: es un guion ilustrativo, no un recorrido observado.</p>
+
+  <h3>3 · Su voz</h3>
+  <blockquote class="voice">Pedí cotización y nadie me contactó <span class="cite">[#5]</span>. Me dijeron que me contactarían y no pasó nada <span class="cite">[#4]</span>. Me dieron un precio y después lo subieron <span class="cite">[#476]</span>. Todavía no me entregan el auto y el vendedor no responde <span class="cite">[#1879]</span>.</blockquote>
+  <p class="cite">Paráfrasis en primera persona. Cada frase corresponde a la cita entre corchetes (row_id: CR_Lead-Portillo_202 y CR_2025-Venta-Nuevo). Ninguna frase es textual.</p>
+
+  <h3>4 · Mapa de empatía (P2, énfasis ZMOT y FMOT)</h3>
+  <div class="empathy">
+    <div class="quad"><h4>Piensa y siente</h4><p>Siente que no le hacen caso y que la dejan esperando.</p><p><span class="chip chip-hip">HIPÓTESIS</span> sentimiento · <span class="chip chip-dato">DATO C-06</span> 28,2 % y 26,8 % de detractores con fricción de comunicación.</p></div>
+    <div class="quad"><h4>Oye</h4><p>"Se suponía que me contactarían y no ha pasado nada" <span class="cite">(#4)</span>. "Mala respuesta para la fecha de entrega y cero comunicación" <span class="cite">(CR_2025-Venta-Nuevo_#6271)</span>.</p><p><span class="chip chip-dato">DATO C-05 · C-08</span> <span class="chip chip-hip">NO VERIFICADO</span> lo que oye de la marca.</p></div>
+    <div class="quad"><h4>Ve</h4><p>El silencio como estado: 60 de 431 dicen "No" al contacto (13,9 %). Pero 275 de 431 (63,8 %) dicen "ya estoy en contacto con mi ejecutivo".</p><p><span class="chip chip-dato">DATO C-05 · 01_zmot línea 56</span></p></div>
+    <div class="quad"><h4>Dice y hace</h4><p>"Solicite cotización y nadie me ha contactado hasta el momento" <span class="cite">(#5)</span>. "Nunca me enviaron nada, solo me llego un mensaje automático por WhatsApp" <span class="cite">(CR_Lead-Portillo_202#555)</span>.</p><p><span class="chip chip-hip">NO VERIFICADO</span> cuántas veces insiste (Q3).</p></div>
+    <div class="quad"><h4>Esfuerzos (miedos)</h4><p>"Vendedor inoperante, poco profesional, cero compromiso de venta, comunicación deficiente, mala experiencia" <span class="cite">(CR_2025-Venta-Usados#159)</span>.</p><p><span class="chip chip-dato">DATO C-18 · C-12</span> precio o financiamiento poco claro en el pool: 12,4 % (Nuevo) y 20,8 % (seminuevos).</p></div>
+    <div class="quad"><h4>Resultados (lo que quiere)</h4><p>Que le respondan, le expliquen el precio y el proceso, y la traten bien, en un plazo que pueda contar.</p><p><span class="chip chip-hip">HIPÓTESIS</span> deseo · plazo <span class="chip chip-hip">NO VERIFICADO</span> (Q3) · <span class="chip chip-dato">DATO 02_fmot R1</span> 82 % de promotores codifican atención.</p></div>
+  </div>
+
+  <h3>5 · Recorrido por los cuatro MdV</h3>
+  <div class="scroll">
+  <table>
+    <tr><th>MdV</th><th>Qué vive y dónde se cae</th><th>Evidencia</th><th>Riesgo secundario</th></tr>
+    <tr><td><strong>ZMOT</strong><br>Canal: formulario web</td><td>Cotiza y espera. Origen de leads: web 60,7 %, salón 28,3 %. Se cae en el silencio que dice el campo.</td><td><span class="chip chip-dato">DATO C-05</span> 13,9 % (2024: 4,9 %; 2025: 23,5 %; 2026: 40,4 %, n=47). Capturar por año es parte de la duda (Q3).</td><td><span class="chip chip-hip">HIPÓTESIS</span> H2 pedido de información de financiamiento 3,2 % (C-09b). H1 lentitud 23,7 % por palabras clave (C-01).</td></tr>
+    <tr><td><strong>FMOT</strong><br>Canal: sala y ejecutivo</td><td>Pide precio, explicación y fecha. Se cae en información (31,0 %), comunicación (28,2 % / 26,8 %) y precio que cambia (20,1 % / 25,2 %).</td><td><span class="chip chip-dato">DATO C-14 · C-06 · C-10</span> Demora citada: "Mucha demora en entrega de factura y entrega de vehiculo" <span class="cite">(CR_2025-Venta-Nuevo_#143)</span>.</td><td><span class="chip chip-hip">HIPÓTESIS</span> <strong>H1 con peso alto</strong>: fluidez 58,0 % (Nuevo) y 50,8 % (Venta-Usados) de detractores (C-02). Q5, Q6, Q9.</td></tr>
+    <tr><td><strong>SMOT</strong><br>Canal: taller</td><td>No es su momento principal. Si lleva el auto al taller, se vuelve la otra cara.</td><td><span class="chip chip-hip">NO VERIFICADO</span> si también va al taller.</td><td>—</td></tr>
+    <tr><td><strong>UMOT</strong><br>Canal: encuesta post-venta</td><td>Recomienda o no; vuelve o no. Pool de venta: vendedor inaccesible 16,8 % (Nuevo) y 21,1 % (Venta-Usados); proceso de entrega largo 35,3 % y 41,2 %.</td><td><span class="chip chip-dato">DATO C-08 · C-04</span> Recomienda en Venta-Nuevo 88,8 % (detractores 5,4 %). Quien no volvería: comunicación con vendedor ≤2 en 47,9 % frente a 0,1 %.</td><td>Asociación descriptiva, no causal. "Dejan de recomendar porque nadie responde" es <span class="chip chip-hip">HIPÓTESIS</span>.</td></tr>
+  </table>
+  </div>
+
+  <h3>6 · Qué tendría que pasar para que recomiende</h3>
+  <p>Pilares de P2: <strong>responder</strong> (alguien responde, aunque sea para decir cuándo); <strong>explicar</strong> (se explica antes de hacer); <strong>tratar bien</strong> (el trato no depende de la compra).</p>
+  <p><span class="chip chip-hip">HIPÓTESIS</span> Indicadores para seguir, sin meta numérica: primer contacto registrado con fecha (hoy 13,9 % "No", sin base por año fiable); comunicación con el vendedor entre quien no vuelve (47,9 % frente a 0,1 %, asociación). La meta la define el equipo comercial.</p>
+
+  <h3>7 · Bajada de comunicación</h3>
+  <p><strong>Arquetipo de marca:</strong> "El Acompañante" <span class="chip chip-hip">HIPÓTESIS</span> (de la investigación; no se asigna a la persona).</p>
+  <p><strong>Tono:</strong> cercano, directo, sin tecnicismos. Sin promesas de tiempo.</p>
+  <p><strong>Palabras bandera:</strong> responde · explica · cumple.<br><strong>Prohibidas:</strong> garantizado · inspección de X puntos (marco legal <span class="chip chip-hip">NO VERIFICADO</span>) · usado (en premium: seminuevo).</p>
+  <p class="msg"><strong>TOFU</strong> <span class="chip chip-hip">HIPÓTESIS</span> "Recibimos tu solicitud. Te decimos cuándo te contacta tu ejecutiva." <span class="bloq">BLOQUEADO</span>: plazo (equipo comercial Portillo / Beto) y asignación (Beto / Iván Balaguera).</p>
+  <p class="msg"><strong>MOFU</strong> <span class="chip chip-hip">HIPÓTESIS</span> "Te contamos qué sigue en tu cotización y quién lo lleva." Aplica a precio, financiamiento y entrega.</p>
+  <p class="msg"><strong>BOFU</strong> <span class="chip chip-hip">HIPÓTESIS</span> "Tu ejecutiva, con nombre, y tu próximo paso por escrito." Requiere asignación de personal (<span class="chip chip-hip">NO VERIFICADO</span>).</p>
+  <p><strong>Funcionalidades que pide</strong> <span class="chip chip-dato">DATO proxy</span> <span class="chip chip-hip">D-N6</span>: la encuesta web es de compradores de vehículo nuevo con factura (324 de 324), no de visitantes ni de leads; 63 % de la muestra es una sola campaña. Comparar formas de pago, ranking 1 (43,5 %). Contenido educativo, ranking 2 (42,0 %). Opiniones de clientes, ranking 3 (40,4 %). Asistente virtual, ranking 10 (12,3 %).</p>
+</article>
+
+<!-- ============ TOMÁS ============ -->
+<article class="persona" aria-labelledby="tomas">
+  <div class="persona-head">
+    <svg class="avatar" viewBox="0 0 96 96" role="img" aria-label="Avatar genérico, ilustración sin rasgos de persona real">
+      <rect width="96" height="96" rx="48" fill="#d6dee6"/>
+      <circle cx="48" cy="38" r="16" fill="#a57b5a"/>
+      <path d="M18 86 C22 60 74 60 78 86 Z" fill="#3f4a57"/>
+      <path d="M33 28 Q48 16 63 28 L63 32 Q48 24 33 32 Z" fill="#2a2320"/>
+    </svg>
+    <div>
+      <div class="tag">Personificación 2 de 2 · Taller (SMOT → UMOT)</div>
+      <h2 id="tomas">Tomás Pascual <span class="chip chip-ilus">ILUSTRATIVO</span></h2>
+      <p class="lede" style="margin:0">Técnico electricista, 46 años, Quilicura. Deja el auto, no sabe qué se hizo y no lo tratan bien en recepción.</p>
+    </div>
+  </div>
+
+  <h3>1 · Ficha</h3>
+  <div class="scroll">
+  <table>
+    <tr><th>Campo</th><th>Valor</th><th>Etiqueta</th></tr>
+    <tr><td>Nombre</td><td>Tomás Pascual</td><td><span class="chip chip-ilus">ILUSTRATIVO</span></td></tr>
+    <tr><td>Edad, comuna</td><td>46 años · Quilicura</td><td><span class="chip chip-ilus">ILUSTRATIVO</span> zona de clientes <span class="chip chip-hip">NO VERIFICADO</span> (Q10)</td></tr>
+    <tr><td>Familia</td><td>Casado, dos hijos (uno en la universidad)</td><td><span class="chip chip-ilus">ILUSTRATIVO</span></td></tr>
+    <tr><td>Ocupación</td><td>Técnico electricista, turnos rotativos</td><td><span class="chip chip-ilus">ILUSTRATIVO</span></td></tr>
+    <tr><td>Miedo dominante (P2)</td><td>Dejar el auto y no saber qué se hizo; trato malo en recepción</td><td><span class="chip chip-dato">DATO C-15 · C-19</span></td></tr>
+    <tr><td>Cara que más vive</td><td>Información: claridad de la reparación con nota ≤3 en 69,5 % de detractores; reparación no explicada en el pool, 35,6 %</td><td><span class="chip chip-dato">DATO C-15 · C-16</span></td></tr>
+    <tr><td>Trato</td><td>Acogida en sala de espera con nota ≤3: 51,4 %; atención de personal: 46,5 %</td><td><span class="chip chip-dato">DATO C-19</span></td></tr>
+    <tr><td>Silencio</td><td>Comunicación en el pool de Mecánica: 35,0 %. Facilidad para comunicarse con nota ≤3: 64,9 % (proxy)</td><td><span class="chip chip-dato">DATO C-08 · C-07</span></td></tr>
+    <tr><td>Ingreso, precio de la reparación, pago</td><td>—</td><td><span class="chip chip-hip">NO VERIFICADO</span> Q8</td></tr>
+    <tr><td>Garantía</td><td>—</td><td><span class="chip chip-hip">NO VERIFICADO</span> Q7 · marco legal <span class="chip chip-hip">NO VERIFICADO</span></td></tr>
+    <tr><td>Quién autoriza el presupuesto</td><td>—</td><td><span class="chip chip-hip">NO VERIFICADO</span> Q10</td></tr>
+  </table>
+  </div>
+
+  <h3>2 · Su historia con Portillo</h3>
+  <p><span class="chip chip-ilus">ILUSTRATIVO</span> Tomás pide hora para la revisión del auto de su hijo. Llega a la hora y espera más de lo reservado. En recepción nadie le explica qué le van a hacer. Al retirar el auto encuentra un daño y nadie se lo comenta a la salida. Lo que cuentan otros clientes: <span class="chip chip-dato">DATO</span> "Mucho tiempo de espera, respecto a la hora reservada" <span class="cite">(CR_2025-Mecánica_202#25654)</span>. "Abollaron mi automóvil y no me informaron a la salida del servicio técnico" <span class="cite">(CR_2025-Mecánica_202#661)</span>, detractor con nota 0. "mala experiencia solicite hora el día lunes" <span class="cite">(CR_2025-Mecánica_202#14465)</span>, cita de contraste.</p>
+  <p class="note">La escena es ilustrativa: el daño, la conversación y la hora son hipotéticos. Las citas son reales y de distintos clientes.</p>
+
+  <h3>3 · Su voz</h3>
+  <blockquote class="voice">Pedí hora y tuve mala experiencia <span class="cite">[#14465]</span>. Esperé mucho más que la hora reservada <span class="cite">[#25654]</span>. Abollaron mi auto y nadie me informó a la salida <span class="cite">[#661]</span>.</blockquote>
+  <p class="cite">Paráfrasis en primera persona. Cada frase corresponde a la cita entre corchetes (row_id: CR_2025-Mecánica_202). Ninguna frase es textual.</p>
+
+  <h3>4 · Mapa de empatía (P2, énfasis SMOT y UMOT)</h3>
+  <div class="empathy">
+    <div class="quad"><h4>Piensa y siente</h4><p>Malestar tras la experiencia de servicio: detractores de Mecánica con sentimiento negativo, 1.811 (83,9 %).</p><p><span class="chip chip-dato">DATO 04_umot §4</span> <span class="chip chip-hip">HIPÓTESIS</span> que no le explicaron el trabajo.</p></div>
+    <div class="quad"><h4>Oye</h4><p><span class="chip chip-hip">NO VERIFICADO</span> La encuesta de taller no pregunta qué escuchó antes de llegar ni de terceros.</p></div>
+    <div class="quad"><h4>Ve</h4><p>Recepción o sala percibida como fría o lenta: acogida ≤2 en 23,5 % de detractores. Lo que ve en el papel: claridad de la reparación ≤2 en 46,9 %.</p><p><span class="chip chip-dato">DATO 04_umot §2 y §4</span></p></div>
+    <div class="quad"><h4>Dice y hace</h4><p>Recomienda: 82,5 % de Mecánica; detractores 9,1 %. Dice que volvería: 88,6 % (intención declarada). Quien no volvería, 3,9 % (n=1.079): claridad de reparación ≤2 en 66,4 % frente a 0,3 % de quien vuelve.</p><p><span class="chip chip-dato">DATO 04_umot §1 y §3</span></p></div>
+    <div class="quad"><h4>Esfuerzos (miedos)</h4><p>Claridad de la reparación con nota ≤3: 69,5 %. Precios y costos con nota ≤3: 70,4 %. Acogida: 51,4 %.</p><p><span class="chip chip-dato">DATO C-15 · C-11 · C-19</span> <span class="chip chip-hip">H3</span> trabajo mal hecho en el pool: 39,9 % (C-21).</p></div>
+    <div class="quad"><h4>Resultados (lo que quiere)</h4><p>Que le expliquen qué se hizo antes de retirar el auto, que lo atiendan bien en recepción y que la hora se cumpla.</p><p><span class="chip chip-hip">HIPÓTESIS</span> deseo · <span class="chip chip-dato">DATO 04_umot §4</span> 76,9 % de promotores de Mecánica codifican atención.</p></div>
+  </div>
+
+  <h3>5 · Recorrido por los cuatro MdV</h3>
+  <div class="scroll">
+  <table>
+    <tr><th>MdV</th><th>Qué vive y dónde se cae</th><th>Evidencia</th><th>Riesgo secundario</th></tr>
+    <tr><td><strong>ZMOT</strong><br>Canal: NO VERIFICADO</td><td><span class="chip chip-hip">NO VERIFICADO</span> cómo llega al taller. Los leads son de venta, no de taller.</td><td>Universo de taller Portillo <span class="bloq">BLOQUEADO</span>: 7.881 por campaña frente a 245 por sucursal (D-N1). Beto / Iván Balaguera.</td><td>—</td></tr>
+    <tr><td><strong>FMOT</strong><br>Canal: recepción de la hora</td><td>No medido para taller. La encuesta de FMOT es de venta.</td><td><span class="chip chip-hip">NO VERIFICADO</span></td><td>—</td></tr>
+    <tr><td><strong>SMOT</strong><br>Canal: recepción, llamada, salida</td><td>Se cae en la información y en el trato: claridad de la reparación 69,5 %; precios 70,4 %; comunicación 64,9 %; acogida 51,4 %; atención 46,5 %.</td><td><span class="chip chip-dato">DATO C-15 · C-11 · C-07 · C-19</span> Tiempo de entrega ≤3: 60,9 % (C-03).</td><td><span class="chip chip-hip">HIPÓTESIS</span> <strong>H2</strong> precios (70,4 %) y <strong>H1</strong> tiempo (60,9 %). <strong>H3</strong>: reparado a la primera = No en 43,9 % de detractores (1.097 de 2.497); calidad ≤3 en 78,2 %.</td></tr>
+    <tr><td><strong>UMOT</strong><br>Canal: encuesta de satisfacción</td><td>Pool de Mecánica (3.399): reparación no explicada 35,6 %; sin respuesta 35,0 %; costos poco claros 38,6 %; trabajo mal hecho 39,9 %; acogida 18,3 %.</td><td><span class="chip chip-dato">DATO C-16 · C-08 · C-12 · C-21 · C-20</span> Recomienda 82,5 %; volvería 88,6 % (intención).</td><td>Asociación descriptiva, no causal. C-21 solapa en 55,8 % con la claridad de reparación (<span class="chip chip-hip">H3</span>, no es persona). Solapamiento de respondentes en Mecánica: 78,5 %.</td></tr>
+  </table>
+  </div>
+
+  <h3>6 · Qué tendría que pasar para que recomiende</h3>
+  <p>Pilares de P2: <strong>responder y explicar</strong> (alguien explica qué se hizo antes de retirar el auto); <strong>tratar bien</strong> en recepción y en la salida, sin depender de la compra.</p>
+  <p><span class="chip chip-hip">HIPÓTESIS</span> Indicadores para seguir, sin meta numérica: claridad de la reparación con nota ≤2 entre detractores (hoy 46,9 %) y entre quien no volvería (66,4 %), asociación no causal; acogida con nota ≤2 entre detractores (hoy 23,5 %); reparado a la primera (hoy 43,9 % de detractores = No), cuya definición está en duda (Q8).</p>
+
+  <h3>7 · Bajada de comunicación</h3>
+  <p><strong>Arquetipo de marca:</strong> "El Acompañante" <span class="chip chip-hip">HIPÓTESIS</span> (de la investigación; no se asigna a la persona).</p>
+  <p><strong>Tono:</strong> claro, sobrio, sin jerga técnica. Explica lo que se hizo, sin dramatizar ni prometer.</p>
+  <p><strong>Palabras bandera:</strong> explica · muestra · cumple.<br><strong>Prohibidas:</strong> sin sorpresas · garantía total · inspección de X puntos (todas no verificadas).</p>
+  <p class="msg"><strong>TOFU</strong> <span class="chip chip-hip">HIPÓTESIS</span> "Tu auto entra con un diagnóstico y sale con una explicación." Requiere validar que el diagnóstico es proceso real (Q8).</p>
+  <p class="msg"><strong>MOFU</strong> <span class="chip chip-hip">HIPÓTESIS</span> "Te mostramos qué encontramos, qué se arregló y qué falta, antes de cerrar tu orden." Requiere validar cobro y reingreso (Q8).</p>
+  <p class="msg"><strong>BOFU</strong> <span class="chip chip-hip">HIPÓTESIS</span> "Tu técnico y tu asesor, con nombre, y la lista de lo hecho en tu salida." <span class="bloq">BLOQUEADO</span>: asignación de personal (Beto / Iván Balaguera).</p>
+  <p><strong>Funcionalidades que pide</strong> <span class="chip chip-dato">DATO proxy</span> <span class="chip chip-hip">D-N6</span>: son compradores de vehículo nuevo, no visitantes ni clientes de taller. Avisos de mantenimiento: 83,3 % de acuerdo. Historial del vehículo y documentos en la app: 89,8 % de acuerdo. Escala de acuerdo <span class="chip chip-hip">NO VERIFICADA</span>.</p>
+</article>
+
+<!-- ============ COMPARATIVA ============ -->
+<section aria-labelledby="comp">
+  <h2 id="comp">Qué comparten y qué las separa</h2>
+  <div class="scroll">
+  <table class="compare">
+    <tr><th>Dimensión</th><th>Javiera</th><th>Tomás Pascual</th></tr>
+    <tr><td>Miedo dominante</td><td>P2</td><td>P2</td></tr>
+    <tr><td>Cara más vivida</td><td>Silencio (con medida de contacto) y luego información</td><td>Información (reparación, precios) y trato</td></tr>
+    <tr><td>Dónde se mide</td><td>ZMOT y FMOT (venta)</td><td>SMOT y UMOT (taller)</td></tr>
+    <tr><td>Riesgo secundario</td><td>H1 (fluidez 58,0 %) y H2 (precio 20,1 %)</td><td>H2 (precio 70,4 %) y H3 (reparación, 43,9 %)</td></tr>
+    <tr><td>Trato</td><td>Atención 21,3 % / 26,8 % (nota 1-2, C-18)</td><td>Acogida 51,4 % (nota ≤3, C-19). <strong>No comparable con la columna de Javiera.</strong></td></tr>
+    <tr><td>Lo que comparten</td><td colspan="2">El miedo P2, el pool UMOT (detractor o "no volvería"), el tema de atención y el arquetipo de marca [HIPÓTESIS].</td></tr>
+  </table>
+  </div>
+  <p class="note"><strong>Fuerza de la diferencia.</strong> El canal donde se mide cada miedo es un hecho de la base (fuerte). La cara más vivida depende de qué pregunta existe en cada encuesta (débil). <strong>La diferencia de persona no está verificada.</strong></p>
+</section>
+
+<!-- ============ USO ============ -->
+<section aria-labelledby="uso">
+  <h2 id="uso">Cómo usar estas fichas</h2>
+  <p><strong>Sí sirven para:</strong> que el equipo empatice antes de discutir la pauta; guiar la entrevista (Q1 a Q10) y el registro sin PII; discutir tono y palabras prohibidas; ordenar qué falta validar.</p>
+  <p><strong>No sirven para:</strong></p>
+  <ul>
+    <li>Decidir pauta, segmentación o presupuesto por persona.</li>
+    <li>Tratar a Javiera y Tomás como dos segmentos.</li>
+    <li>Inferir edad, género, ingreso, comuna o familia de clientes reales.</li>
+    <li>Dimensionar universos. El universo Portillo está <span class="bloq">BLOQUEADO</span> (D-N1, D-N2).</li>
+    <li>Afirmar conversión lead→venta o tasa de cierre.</li>
+    <li>Comparar porcentajes entre las dos fichas (umbrales distintos).</li>
+    <li>Prometer plazos, garantías, inspección o "sin sorpresas".</li>
+    <li>Elegir el arquetipo de marca final o la marca que habla.</li>
+    <li>Afirmar causalidad ("nadie responde, por eso no recomiendan").</li>
+  </ul>
+</section>
+
+<!-- ============ BLOQUEOS ============ -->
+<section aria-labelledby="bloq">
+  <h2 id="bloq">Bloqueos abiertos</h2>
+  <div class="scroll">
+  <table>
+    <tr><th>Bloqueo</th><th>Depende de</th></tr>
+    <tr><td>Asignación a Portillo (sucursal y universo)</td><td>Beto / Iván Balaguera</td></tr>
+    <tr><td>Marca que habla por el seminuevo (Portillo o Clicar)</td><td>Beto / Iván Balaguera / equipo comercial Portillo</td></tr>
+    <tr><td>Plazo de respuesta a solicitudes</td><td>Equipo comercial Portillo / Beto</td></tr>
+    <tr><td>Universo de taller Portillo (D-N1)</td><td>Beto / Iván Balaguera</td></tr>
+    <tr><td>Garantía y marco legal</td><td>Beto (validación legal)</td></tr>
+    <tr><td>Clave lead→venta y clave de respondente</td><td>Beto / Iván Balaguera</td></tr>
+  </table>
+  </div>
+</section>
+
+<footer>
+  <p><strong>Fecha de corte:</strong> 2026-11-23. <strong>USO INTERNO.</strong> No publicable: contiene cifras de CRM y citas anonimizadas de clientes.</p>
+  <p><strong>Fuentes:</strong> <code>entregables/BUYER_PERSONAS_PORTILLO.md</code> (v3); <code>research/06_arquetipos_cliente.md</code> (C-01 a C-26); <code>research/01_zmot.md</code>, <code>02_fmot.md</code>, <code>03_smot.md</code>, <code>04_umot_demografia.md</code>, <code>05_contexto_web.md</code>, <code>00_contradicciones.md</code>; <code>entregables/AUDITORIA_Y_BRECHAS.md</code>; <code>entregables/GUIA_ENTREVISTA.md</code>.</p>
+  <p>Ilustraciones: avatares genéricos en SVG, sin fotos de personas reales. Nombres, edades, comunas y rasgos de escena son ilustrativos.</p>
+</footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Javiera · Cliente ideal Seminuevos Premium Portillo · USO INTERNO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,500;1,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:"FF Good Pro";font-style:italic;font-weight:400;src:url("assets/brand/fonts/ff-good-pro-italic.ttf") format("truetype")}
+@font-face{font-family:"FF Good Pro";font-style:italic;font-weight:500;src:url("assets/brand/fonts/ff-good-pro-medium-italic.ttf") format("truetype")}
+@font-face{font-family:"FF Good Pro";font-style:italic;font-weight:700;src:url("assets/brand/fonts/ff-good-pro-bolditalic.ttf") format("truetype")}
+:root{
+  --brand:#212c35;--ink:#212c35;--mute:#56606b;--line:#d9e0e6;--paper:#eef2f5;--card:#ffffff;--quote:#f1f4f7;
+  --display:"FF Good Pro","Barlow Semi Condensed",Arial,sans-serif;
+  --text:Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  --dato:#1e6b47;--dato-bg:#e3f2ea;
+  --plan:#4b3f9e;--plan-bg:#ebe8f8;
+  --web:#8c2a6b;--web-bg:#f6e6ef;
+  --ilu:#7a5200;--ilu-bg:#f8edd3;
+  --hip:#a3361f;--hip-bg:#fbe5df;
+  --nv:#434a52;--nv-bg:#e5e8eb;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font:15px/1.6 var(--text)}
+.hero{background:var(--brand);color:#fff;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+.hero-top{display:flex;justify-content:space-between;align-items:center;gap:14px 20px;flex-wrap:wrap;padding:18px 0;border-bottom:1px solid rgba(255,255,255,.16)}
+.logo{display:block;width:230px;height:auto}
+.band{font-size:11.5px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;background:rgba(255,255,255,.1);padding:6px 12px;border-radius:999px}
+.hero-body{display:flex;gap:28px;align-items:center;padding:28px 0 32px}
+.hero-text{min-width:0}
+.kicker{margin:0;font-size:12.5px;font-weight:600;opacity:.8;text-transform:uppercase;letter-spacing:.1em}
+h1{font-family:var(--display);font-style:italic;font-weight:700;font-size:52px;line-height:1;margin:6px 0 10px;letter-spacing:-.01em}
+.tagline{font-family:var(--display);font-style:italic;font-weight:500;font-size:21px;line-height:1.3;margin:0 0 10px}
+.meta{margin:0;font-size:13px;opacity:.92}
+.hero .chip{background:#fff}
+.face{flex:0 0 148px;width:148px;height:148px;border-radius:50%;overflow:hidden;border:3px solid #fff;background:var(--brand);display:grid;place-items:center;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.face img{width:100%;height:100%;object-fit:cover;object-position:50% 35%;display:block}
+.face span{font-family:var(--display);font-style:italic;font-weight:700;font-size:48px;color:#fff;letter-spacing:.02em}
+main{max-width:980px;margin:0 auto;padding:24px 20px 60px}
+section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px 24px;margin:0 0 16px;box-shadow:0 1px 2px rgba(33,44,53,.05)}
+h2{font-family:var(--display);font-style:italic;font-weight:700;font-size:26px;line-height:1.15;margin:0 0 14px;color:var(--brand)}
+h3{margin:0 0 8px;font-size:14px}
+h4{margin:0 0 6px;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.07em;color:var(--mute)}
+ul,ol{margin:0;padding-left:20px}
+li{margin:0 0 6px}
+.chip{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.05em;padding:2px 7px;border:1px solid;border-radius:999px;margin-left:3px;vertical-align:1px;white-space:nowrap;line-height:1.5}
+.chip.dato{color:var(--dato);background:var(--dato-bg);border-color:var(--dato)}
+.chip.plan{color:var(--plan);background:var(--plan-bg);border-color:var(--plan)}
+.chip.web{color:var(--web);background:var(--web-bg);border-color:var(--web)}
+.chip.ilu{color:var(--ilu);background:var(--ilu-bg);border-color:var(--ilu)}
+.chip.hip{color:var(--hip);background:var(--hip-bg);border-color:var(--hip)}
+.chip.nv{color:var(--nv);background:var(--nv-bg);border-color:var(--nv);border-style:dashed}
+.leg{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:13px;color:var(--mute)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px 24px}
+.kv{display:flex;flex-direction:column;border-top:1px solid var(--line);padding-top:8px}
+.k{font-size:11.5px;font-weight:600;color:var(--mute);text-transform:uppercase;letter-spacing:.06em}
+blockquote{margin:12px 0 0;padding:11px 14px;border-left:4px solid var(--brand);background:var(--quote);border-radius:0 10px 10px 0;font-style:italic}
+cite{display:block;font-style:normal;font-size:12px;color:var(--mute);margin-top:4px}
+.voice .v{font-family:var(--display);font-style:italic;font-weight:500;font-size:23px;line-height:1.4;margin:0 0 10px}
+.note{font-size:12.5px;color:var(--mute)}
+.emp{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.q{border:1px solid var(--line);border-radius:12px;padding:14px;background:#fbfcfd}
+.tw{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:640px}
+th,td{text-align:left;vertical-align:top;padding:10px;border-top:1px solid var(--line)}
+thead th{font-size:11.5px;font-weight:600;color:var(--mute);text-transform:uppercase;letter-spacing:.05em}
+tbody th{white-space:nowrap;color:var(--brand)}
+.funnel{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0}
+.funnel>div{border:1px solid var(--line);border-top:4px solid var(--brand);border-radius:12px;padding:14px}
+.funnel p{margin:0}
+.bar{display:grid;grid-template-columns:150px 1fr 90px;gap:12px;align-items:center;margin:8px 0}
+.track{height:10px;background:var(--line);border-radius:6px;overflow:hidden}
+.fill{display:block;height:100%}
+.fill.dato{background:var(--dato)}
+.fill.plan{background:var(--plan)}
+.fill.web{background:var(--web)}
+.fill.ilu{background:var(--ilu)}
+.fill.hip{background:var(--hip)}
+.fill.nv{background:var(--nv)}
+.pct{font-size:13px;color:var(--mute);text-align:right}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:4px 0 0}
+.pair figure{margin:0}
+.pair img{display:block;width:100%;height:auto;border-radius:12px;background:#e9edf0}
+figcaption{font-size:12px;color:var(--mute);margin-top:7px}
+.pending{border:2px dashed #97a3ad;border-radius:12px;aspect-ratio:16/9;display:grid;place-items:center;text-align:center;color:var(--mute);font-size:14px;background:#f6f8fa;padding:12px}
+footer{font-size:12px;color:var(--mute);padding:8px 4px}
+@media (max-width:720px){
+  .wrap{padding:0 16px}
+  main{padding:18px 16px 40px}
+  section{padding:18px 16px}
+  .grid2,.emp,.funnel,.pair{grid-template-columns:1fr}
+  .hero-body{flex-direction:column-reverse;align-items:flex-start;gap:20px}
+  .face{width:124px;height:124px;flex-basis:124px}
+  h1{font-size:40px}
+  .tagline{font-size:19px}
+  .bar{grid-template-columns:110px 1fr 76px}
+}
+@page{size:A4;margin:12mm}
+@media print{
+  body{background:#fff}
+  section{box-shadow:none;break-inside:avoid}
+  .hero{print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .funnel>div,.q,blockquote{break-inside:avoid}
+}
+</style></head><body>
+<header class="hero"><div class="wrap">
+  <div class="hero-top">
+    <img class="logo" src="assets/brand/logos/PORTILLO_PREMIUM_HORIZONTAL_BLANCO.svg" alt="Portillo Usados Premium" width="230" height="35">
+    <div class="band">USO INTERNO · Cliente ideal Seminuevos Premium Portillo · Zona Oriente RM · corte 2026-11-23</div>
+  </div>
+  <div class="hero-body">
+    <div class="hero-text">
+      <p class="kicker">Cliente ideal 1 de 2 · Zona oriente</p>
+      <h1>Javiera</h1>
+      <p class="tagline">“Si ya me atendieron bien, vuelvo.” La compradora que regresa por la atención y trae su auto en parte de pago.</p>
+      <p class="meta">Construida desde los 60 promotores de las sucursales Portillo de la zona oriente <span class="chip dato">DATO</span>. Rasgos personales inventados para humanizar <span class="chip ilu">ILUSTRATIVO</span>.</p>
+    </div>
+    <div class="face" aria-hidden="true"><img src="assets/personas/javiera/web/01_closeup.jpg" alt=""></div>
+  </div>
+</div></header>
+<main>
+<section class="legend"><h3>Cómo leer esta ficha</h3><div class="leg"><span><span class="chip dato">DATO</span> encuestas de la carpeta, con n</span><span><span class="chip plan">PLAN</span> presentación del plan, 20-nov-2026</span><span><span class="chip web">WEB</span> fuente pública con URL</span><span><span class="chip ilu">ILUSTRATIVO</span> inventado para humanizar; no decide nada</span><span><span class="chip hip">HIPÓTESIS</span> inferencia a validar</span><span><span class="chip nv">NO VERIFICADO</span> sin fuente</span></div></section>
+<section><h2>Ficha</h2><div class="grid2"><div class="kv"><span class="k">Nombre y edad</span><span class="v">Javiera Correa, 41 años <span class="chip ilu">ILUSTRATIVO</span></span></div><div class="kv"><span class="k">Dónde vive</span><span class="v">La Dehesa, Lo Barnechea <span class="chip ilu">ILUSTRATIVO</span></span></div><div class="kv"><span class="k">Hogar y trabajo</span><span class="v">Casada, dos hijos en el colegio; ingeniera comercial en una empresa de servicios <span class="chip ilu">ILUSTRATIVO</span></span></div><div class="kv"><span class="k">Sucursal de referencia</span><span class="v">Portillo Usados La Dehesa (13 promotores) o Padre Hurtado (11) <span class="chip dato">DATO</span></span></div><div class="kv"><span class="k">Qué compra</span><span class="v">SUV mediano familiar: RAV4, CX-5, 3008 y Traverse aparecen entre los promotores de la zona; RAV4 es el modelo que más se repite (6 de 60) <span class="chip dato">DATO</span>. Asignarle este tipo de auto a Javiera es una decisión <span class="chip hip">HIPÓTESIS</span></span></div><div class="kv"><span class="k">Ticket</span><span class="v">Tramo objetivo $15–17 MM o más <span class="chip plan">PLAN</span>. Su ticket real: sin export de ventas <span class="chip nv">NO VERIFICADO</span></span></div><div class="kv"><span class="k">Parte de pago</span><span class="v">Entrega su auto actual <span class="chip hip">HIPÓTESIS</span>. En la zona, 26 de 60 promotores usaron parte de pago (43 %) y 21 de ellos le pusieron nota 5 <span class="chip dato">DATO</span></span></div><div class="kv"><span class="k">Ingreso, pie y financiamiento</span><span class="v">Sin fuente <span class="chip nv">NO VERIFICADO</span>. Se valida con la pregunta 1 de abajo</span></div><div class="kv"><span class="k">Cómo llegó</span><span class="v">Ya era cliente: 13 de 60 (22 %); por recomendación: 7 de 60 <span class="chip dato">DATO</span>. Llega por relación, no por búsqueda <span class="chip hip">HIPÓTESIS</span></span></div></div></section>
+<section><h2>Así se ve Javiera</h2><div class="pair"><figure><img src="assets/personas/javiera/web/02_cuerpo_completo.jpg" alt="Javiera, personaje ficticio generado con IA: cuerpo completo" loading="lazy" width="1600" height="893"><figcaption>Imagen generada con IA · personaje ficticio · no es una persona real · USO INTERNO</figcaption></figure><figure><img src="assets/personas/javiera/web/03_outfit.jpg" alt="Javiera, personaje ficticio generado con IA: outfit" loading="lazy" width="1600" height="900"><figcaption>Imagen generada con IA · personaje ficticio · no es una persona real · USO INTERNO</figcaption></figure></div></section>
+<section><h2>Detonante y contexto de uso</h2><ul><li>El auto actual ya tiene años o la familia necesita más espacio para colegio, actividades y viajes de fin de semana <span class="chip hip">HIPÓTESIS</span>.</li><li>En Lo Barnechea y Vitacura más del 60 % va al trabajo en auto (Censo 2024, vía The Clinic) <span class="chip web">WEB</span>. Para ella el auto es de uso diario, no opcional <span class="chip hip">HIPÓTESIS</span>.</li><li>En Lo Barnechea las transferencias premium ya son el 42 % de lo transferido y en Las Condes y Lo Barnechea crecieron 57 % (ene-26 vs ene-25) <span class="chip plan">PLAN</span>.</li></ul></section>
+<section><h2>Por qué elige Portillo</h2><ul><li><strong>Atención:</strong> es el motivo más citado por los promotores de la zona (39 menciones codificadas en 60 promotores) <span class="chip dato">DATO</span>.</li><li><strong>Rapidez del proceso:</strong> segundo motivo (14 menciones) <span class="chip dato">DATO</span>.</li><li><strong>Volvería a comprar:</strong> 60 de 60 promotores de la zona dicen que sí <span class="chip dato">DATO</span>.</li><li>Valora seriedad, respaldo y un auto bien presentado más que el precio más bajo <span class="chip hip">HIPÓTESIS</span>.</li></ul><blockquote>“Excelente atención, preocupados en todo momento. Ejecutiva muy profesional.”<cite>CR_2025-Venta-Usados#3764 · Venta-Usados <span class="chip dato">DATO</span></cite></blockquote><blockquote>“Los autos estan en buen estado, limpios, ordenados y la oficina muy bien preparada”<cite>CR_2025-Venta-Usados#3290 · Venta-Usados <span class="chip dato">DATO</span></cite></blockquote><blockquote>“Atención y respaldo”<cite>CR_2025-Venta-Usados#3514 · Venta-Usados <span class="chip dato">DATO</span></cite></blockquote></section>
+<section><h2>Qué lo haría irse</h2><ul><li><strong>Tasación que no calza:</strong> 39,6 % de los detractores de usados del grupo con parte de pago le puso 1-2 a ese ítem (42 de 106) <span class="chip dato">DATO</span>. Es referencia del grupo, no de Portillo.</li><li><strong>Auto con detalles al recibirlo:</strong> 22 % de los detractores del grupo <span class="chip dato">DATO</span>.</li><li><strong>Entrega sin fecha o con documentos pendientes:</strong> el dolor más frecuente del grupo, 77,3 % de los detractores <span class="chip dato">DATO</span>.</li><li><strong>Reseñas:</strong> Portillo tiene 3,0 ★ en Google y las boutiques vecinas 4,7 a 5,0 ★ <span class="chip plan">PLAN</span>.</li></ul><blockquote>“Los valores ofrecidos en la página web por vehículos en parte de pago no son”<cite>CR_2025-Venta-Usados#2256 · Venta-Usados <span class="chip dato">DATO</span></cite></blockquote><blockquote>“al entregarme no enciende porque se descargo la batería”<cite>CR_2025-Venta-Usados#3477 · Venta-Usados <span class="chip dato">DATO</span></cite></blockquote></section>
+<section class="voice"><h2>Su voz</h2><p class="v">“No tengo tiempo para recorrer diez automotoras. Si ya me atendieron bien, vuelvo. Necesito que me reciban mi auto a un precio justo, que el que me llevo esté impecable y que me digan cuándo lo retiro.”</p><p class="note">Parafraseada desde #3764, #3514 (promotores) y #2256, #3477 (dolores) <span class="chip dato">DATO</span> <span class="chip ilu">ILUSTRATIVO</span>.</p></section>
+<section><h2>Mapa de empatía</h2><div class="emp"><div class="q"><h4>Piensa y siente</h4><ul><li>Quiere resolver rápido y sin sorpresas; su tiempo es lo más escaso <span class="chip hip">HIPÓTESIS</span>.</li><li>Confía en quien ya la atendió bien <span class="chip dato">DATO</span>.</li></ul></div><div class="q"><h4>Oye</h4><ul><li>La recomendación de conocidos (7 de 60 llegaron así) <span class="chip dato">DATO</span>.</li><li>La opinión de su pareja sobre el auto en parte de pago <span class="chip hip">HIPÓTESIS</span>.</li></ul></div><div class="q"><h4>Ve</h4><ul><li>Su barrio compra premium: 42 % de las transferencias en Lo Barnechea <span class="chip plan">PLAN</span>.</li><li>Boutiques vecinas con 4,7–5,0 ★ <span class="chip plan">PLAN</span>.</li></ul></div><div class="q"><h4>Dice y hace</h4><ul><li>Vuelve a la sucursal donde ya compró (13 de 60) <span class="chip dato">DATO</span>.</li><li>Pregunta primero cuánto le dan por su auto <span class="chip hip">HIPÓTESIS</span>.</li></ul></div><div class="q"><h4>Esfuerzos y miedos</h4><ul><li>Que le tasen bajo o distinto a lo de la web <span class="chip dato">DATO</span>.</li><li>Recibir el auto con detalles o sin fecha de entrega <span class="chip dato">DATO</span>.</li></ul></div><div class="q"><h4>Resultados y éxito</h4><ul><li>Auto impecable, entregado el día acordado y con todos los papeles <span class="chip hip">HIPÓTESIS</span>.</li><li>Sentir que la atendieron como cliente de siempre <span class="chip dato">DATO</span>.</li></ul></div></div></section>
+<section><h2>Journey en Portillo</h2><div class="tw"><table><thead><tr><th>Etapa</th><th>Canal y qué busca</th><th>Dolor que hay que resolverle</th><th>Qué hace Portillo (plan)</th></tr></thead><tbody><tr><th>Interés</th><td>Le recomiendan Portillo o recuerda su compra anterior; revisa el stock en la web <span class="chip hip">HIPÓTESIS</span>.</td><td>Portillo no aparece en orgánico en 0 de 8 búsquedas clave de la zona <span class="chip plan">PLAN</span>.</td><td>S1: ordenar fichas de Google y precios <span class="chip plan">PLAN</span>.</td></tr><tr><th>Consideración</th><td>Pregunta por su tasación y por SUV de su tramo <span class="chip hip">HIPÓTESIS</span>.</td><td>Solo 16 % de las tasaciones llega a inspección (red: 26 %) <span class="chip plan">PLAN</span>.</td><td>Tasador el fin de semana e inspección agendada al cotizar <span class="chip plan">PLAN</span>.</td></tr><tr><th>Compra</th><td>Firma con parte de pago y crédito o pie <span class="chip hip">HIPÓTESIS</span>.</td><td>Precio o ficha que no coinciden (39,9 % de detractores del grupo) <span class="chip dato">DATO</span>.</td><td>Ficha única con precio y cuota; inspección y garantía visibles <span class="chip plan">PLAN</span>.</td></tr><tr><th>Retención</th><td>Espera su auto y sus papeles <span class="chip hip">HIPÓTESIS</span>.</td><td>Entrega y documentos: 77,3 % y 16 % de detractores del grupo <span class="chip dato">DATO</span>.</td><td>Espacio de entrega dedicado y kit de entrega <span class="chip plan">PLAN</span>.</td></tr><tr><th>Advocacy</th><td>Recomienda y vuelve para el próximo auto (60 de 60 volverían) <span class="chip dato">DATO</span>.</td><td>Si no la invitan a reseñar, la reseña no llega <span class="chip hip">HIPÓTESIS</span>.</td><td>QR de reseña en la entrega <span class="chip plan">PLAN</span>.</td></tr></tbody></table></div></section>
+<section><h2>Bajada de comunicación</h2><div class="grid2">
+      <div class="kv"><span class="k">Arquetipo de marca</span><span class="v">El Acompañante: cumple, explica, responde <span class="chip hip">HIPÓTESIS</span> (propuesto en la investigación)</span></div>
+      <div class="kv"><span class="k">Tono</span><span class="v">Cercano y resolutivo, sin tono de promoción <span class="chip hip">HIPÓTESIS</span></span></div>
+      <div class="kv"><span class="k">Palabras bandera</span><span class="v">respaldo · impecable · a tiempo <span class="chip hip">HIPÓTESIS</span></span></div>
+      <div class="kv"><span class="k">Palabras prohibidas</span><span class="v">“usado” · “oferta imperdible” · “garantía total” <span class="chip hip">HIPÓTESIS</span></span></div>
+    </div>
+    <div class="funnel">
+      <div><h4>TOFU</h4><p>SUV familiares seminuevos de la zona y cómo se prepara un seminuevo antes de entregarlo, sin cifras de inspección no respaldadas <span class="chip hip">HIPÓTESIS</span>.</p></div>
+      <div><h4>MOFU</h4><p>Cómo se calcula el valor de tu auto en parte de pago, paso a paso <span class="chip hip">HIPÓTESIS</span>.</p></div>
+      <div><h4>BOFU</h4><p>Agenda tu tasación e inspección este fin de semana en La Dehesa <span class="chip hip">HIPÓTESIS</span>.</p></div>
+    </div>
+    <h4>Qué del plan S1–S4 le habla</h4><ul><li>S1 Ordenar la casa: fichas de Google y precios, para que la encuentre quien la recomendó <span class="chip plan">PLAN</span>.</li><li>S3 Convertir mejor: ficha premium con garantía y tasación con inspección agendada <span class="chip plan">PLAN</span>.</li><li>S4 Escalar al peak: presupuesto de enero, cuando ella cambia de auto <span class="chip plan">PLAN</span> <span class="chip hip">HIPÓTESIS</span>.</li></ul></section>
+<section><h2>Estándar en sucursal que lo convence</h2><ul><li>Autos lavados a diario y ficha empastada con precio y cuota <span class="chip plan">PLAN</span>.</li><li>Tasador el fin de semana <span class="chip plan">PLAN</span>.</li><li>Entrega en espacio dedicado, con kit y QR de reseña <span class="chip plan">PLAN</span>.</li><li>Trato diferenciado y zona lounge <span class="chip plan">PLAN</span>.</li></ul></section>
+<section><h2>Qué lo validaría (preguntas para sala)</h2><ol><li>¿Qué ticket, pie y forma de pago traen las compradoras de SUV en La Dehesa y Padre Hurtado? <span class="chip nv">NO VERIFICADO</span></li><li>¿Qué porcentaje llega con auto en parte de pago y qué auto es? <span class="chip nv">NO VERIFICADO</span></li><li>¿Quién decide en el hogar y quién viene a la sucursal? <span class="chip nv">NO VERIFICADO</span></li><li>¿Cuántas compradoras ya eran clientes de Portillo? <span class="chip nv">NO VERIFICADO</span></li></ol></section>
+<section><h2>Bloqueos abiertos</h2><ul><li>Export de ventas ene–oct 2026 con ticket, modelo y forma de pago: Beto.</li><li>Mapeo de las sucursales del plan con las de la encuesta: Beto / Iván Balaguera.</li><li>Marca que firma el seminuevo (Portillo o Clicar): Beto / Iván Balaguera / equipo comercial.</li><li>Stock por sucursal (tabla vacía del plan): responsable de stock.</li></ul></section>
+<section><h2>Tarjeta de evidencia</h2><p class="note">Conteo de etiquetas en esta ficha (75 en total). Mide la forma de la evidencia, no su solidez.</p><div class="bar"><span class="lab"><span class="chip dato">DATO</span></span><span class="track"><span class="fill dato" style="width:28.0%"></span></span><span class="pct">21 · 28 %</span></div><div class="bar"><span class="lab"><span class="chip plan">PLAN</span></span><span class="track"><span class="fill plan" style="width:25.3%"></span></span><span class="pct">19 · 25 %</span></div><div class="bar"><span class="lab"><span class="chip web">WEB</span></span><span class="track"><span class="fill web" style="width:1.3%"></span></span><span class="pct">1 · 1 %</span></div><div class="bar"><span class="lab"><span class="chip ilu">ILUSTRATIVO</span></span><span class="track"><span class="fill ilu" style="width:6.7%"></span></span><span class="pct">5 · 7 %</span></div><div class="bar"><span class="lab"><span class="chip hip">HIPÓTESIS</span></span><span class="track"><span class="fill hip" style="width:30.7%"></span></span><span class="pct">23 · 31 %</span></div><div class="bar"><span class="lab"><span class="chip nv">NO VERIFICADO</span></span><span class="track"><span class="fill nv" style="width:8.0%"></span></span><span class="pct">6 · 8 %</span></div><p class="note">n que la respalda: 60 promotores de sucursales Portillo zona oriente (ene-2025 a nov-2026) <span class="chip dato">DATO</span>; dolores de 313 detractores del grupo, no solo Portillo (Portillo tiene 10) <span class="chip dato">DATO</span>.</p></section>
+<footer>Fuentes: research/11_promotores_seminuevo.md y 12_dolores_seminuevo.md (inputs_clean/CR_2025-Venta-Usados, campaña &quot;2025 - Venta Usados Portillo&quot;, n=114; 95 promotores) <span class="chip dato">DATO</span>; cruce zona oriente de este perfil: sucursales Portillo La Dehesa, Bilbao, Luis Carrera, Padre Hurtado, Las Condes y Vitacura, 60 promotores, script analisis/v3_oriente_promotores.py <span class="chip dato">DATO</span>; Plan Seminuevos Premium Zona Oriente RM, 20-nov-2026 (research/10_plan_premium.md) <span class="chip plan">PLAN</span>; research/13, 14 y 15 (URLs y fecha de consulta 2026-11-23) <span class="chip web">WEB</span>. Sin conversión lead→venta. Sin datos personales. No publicable.</footer>
+</main>
+</body></html>

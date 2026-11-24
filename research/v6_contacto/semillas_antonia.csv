@@ -1,0 +1,30 @@
+id,tipo_semilla,texto,peso,fuente
+c_antonia_atención,concepto,atención,0.5,research/v5_nube/conceptos_antonia.csv (A2)
+c_antonia_excelente,concepto,excelente,0.255,research/v5_nube/conceptos_antonia.csv (A0)
+c_antonia_excelente atención,concepto,excelente atención,0.201,research/v5_nube/conceptos_antonia.csv (A1)
+c_antonia_rapidez,concepto,rapidez,0.196,research/v5_nube/conceptos_antonia.csv (A3)
+c_antonia_rápido,concepto,rápido,0.168,research/v5_nube/conceptos_antonia.csv (A3)
+c_antonia_auto,concepto,auto,0.155,research/v5_nube/conceptos_antonia.csv (A0)
+c_antonia_vendedor,concepto,vendedor,0.15,research/v5_nube/conceptos_antonia.csv (A3)
+c_antonia_ejecutivo,concepto,ejecutivo,0.5,research/v5_nube/conceptos_antonia.csv (D2)
+c_antonia_contacto,concepto,contacto,0.474,research/v5_nube/conceptos_antonia.csv (D2)
+c_antonia_contacto ejecutivo,concepto,contacto ejecutivo,0.471,research/v5_nube/conceptos_antonia.csv (D2)
+c_antonia_vehículo,concepto,vehículo,0.44,research/v5_nube/conceptos_antonia.csv (D1)
+c_antonia_entregar,concepto,entregar,0.281,research/v5_nube/conceptos_antonia.csv (D1)
+c_antonia_entrega,concepto,entrega,0.224,research/v5_nube/conceptos_antonia.csv (D1)
+c_antonia_información,concepto,información,0.188,research/v5_nube/conceptos_antonia.csv (D1)
+c_antonia_opción,concepto,opción,0.175,research/v5_nube/conceptos_antonia.csv (D0)
+c_antonia_seminuevo,concepto,seminuevo,0.5,research/v5_nube/conceptos_antonia.csv (sin cluster (n<20 consultas))
+c_antonia_usado,concepto,usado,0.403,research/v5_nube/conceptos_antonia.csv (sin cluster (n<20 consultas))
+c_antonia_auto usado,concepto,auto usado,0.313,research/v5_nube/conceptos_antonia.csv (sin cluster (n<20 consultas))
+c_antonia_premium,concepto,premium,0.223,research/v5_nube/conceptos_antonia.csv (sin cluster (n<20 consultas))
+c_antonia_seminuevo premium,concepto,seminuevo premium,0.175,research/v5_nube/conceptos_antonia.csv (sin cluster (n<20 consultas))
+c_antonia_garantir,concepto,garantir,0.167,research/v5_nube/conceptos_antonia.csv (sin cluster (n<20 consultas))
+r_antonia_00,uso,"auto de uso diario para ir al trabajo, al colegio de los hijos y a actividades familiares",0.6,PERFIL_ANTONIA: uso y detonante
+r_antonia_01,detonante,auto actual con años y la familia necesita más espacio,0.6,PERFIL_ANTONIA: detonante
+r_antonia_02,como_llega,llega por relación de confianza con la sucursal y recomendación de conocidos,0.6,PERFIL_ANTONIA: cómo llega
+r_antonia_03,valora,"recibir el auto limpio, ordenado y bien presentado, con trato cercano y atento",0.6,PERFIL_ANTONIA: valora
+r_antonia_04,teme,tasación del auto actual que no calza y entrega sin fecha o con documentos pendientes,0.6,PERFIL_ANTONIA: teme
+r_antonia_05,estilo_HIPOTESIS,escapadas de fin de semana con la familia,0.4,PERFIL_ANTONIA: viajes de fin de semana (HIPÓTESIS)
+r_antonia_06,estilo_HIPOTESIS,vida familiar en barrio de oriente con acceso a parques y naturaleza,0.3,"HIPÓTESIS, contexto de entorno sin comuna"
+r_antonia_07,estilo_HIPOTESIS,cocina y bienestar en casa con la familia,0.2,HIPÓTESIS

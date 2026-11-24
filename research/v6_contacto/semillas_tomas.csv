@@ -1,0 +1,29 @@
+id,tipo_semilla,texto,peso,fuente
+c_tomas_excelente,concepto,excelente,0.5,research/v5_nube/conceptos_tomas.csv (T1)
+c_tomas_vendedor,concepto,vendedor,0.491,research/v5_nube/conceptos_tomas.csv (T0)
+c_tomas_atención,concepto,atención,0.435,research/v5_nube/conceptos_tomas.csv (T1)
+c_tomas_excelente atención,concepto,excelente atención,0.393,research/v5_nube/conceptos_tomas.csv (T1)
+c_tomas_experiencia,concepto,experiencia,0.39,research/v5_nube/conceptos_tomas.csv (T1)
+c_tomas_compra,concepto,compra,0.331,research/v5_nube/conceptos_tomas.csv (T0)
+c_tomas_solución,concepto,solución,0.321,research/v5_nube/conceptos_tomas.csv (T0)
+c_tomas_vehículo,concepto,vehículo,0.211,research/v5_nube/conceptos_tomas.csv (T0)
+c_tomas_auto,concepto,auto,0.152,research/v5_nube/conceptos_tomas.csv (T0)
+c_tomas_ejecutivo,concepto,ejecutivo,0.5,research/v5_nube/conceptos_tomas.csv (D2)
+c_tomas_contacto,concepto,contacto,0.474,research/v5_nube/conceptos_tomas.csv (D2)
+c_tomas_contacto ejecutivo,concepto,contacto ejecutivo,0.471,research/v5_nube/conceptos_tomas.csv (D2)
+c_tomas_entregar,concepto,entregar,0.281,research/v5_nube/conceptos_tomas.csv (D1)
+c_tomas_entrega,concepto,entrega,0.224,research/v5_nube/conceptos_tomas.csv (D1)
+c_tomas_proceso,concepto,proceso,0.216,research/v5_nube/conceptos_tomas.csv (D1)
+c_tomas_información,concepto,información,0.188,research/v5_nube/conceptos_tomas.csv (D1)
+c_tomas_opción,concepto,opción,0.175,research/v5_nube/conceptos_tomas.csv (D0)
+c_tomas_seminuevo,concepto,seminuevo,0.5,research/v5_nube/conceptos_tomas.csv (sin cluster (n<20 consultas))
+c_tomas_usado,concepto,usado,0.403,research/v5_nube/conceptos_tomas.csv (sin cluster (n<20 consultas))
+c_tomas_auto usado,concepto,auto usado,0.313,research/v5_nube/conceptos_tomas.csv (sin cluster (n<20 consultas))
+c_tomas_premium,concepto,premium,0.223,research/v5_nube/conceptos_tomas.csv (sin cluster (n<20 consultas))
+c_tomas_seminuevo premium,concepto,seminuevo premium,0.175,research/v5_nube/conceptos_tomas.csv (sin cluster (n<20 consultas))
+c_tomas_garantir,concepto,garantir,0.167,research/v5_nube/conceptos_tomas.csv (sin cluster (n<20 consultas))
+r_tomas_00,como_llega,compara seminuevos en varios portales y lee reseñas antes de ir a la sucursal,0.6,PERFIL_TOMAS: cómo llega
+r_tomas_01,valora,"ficha completa del vehículo, historial y precio transparente igual al publicado",0.6,PERFIL_TOMAS: valora
+r_tomas_02,valora,respuesta rápida al aviso y prueba de manejo agendada,0.6,PERFIL_TOMAS: valora
+r_tomas_03,teme,garantía corta y ficha o año distintos a lo publicado,0.6,PERFIL_TOMAS: teme
+r_tomas_04,uso,auto para el trayecto diario y la compra de un vehículo con datos claros,0.5,PERFIL_TOMAS: uso

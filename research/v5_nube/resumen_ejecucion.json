@@ -1,0 +1,88 @@
+{
+  "stats": {
+    "vu_campana_filas": 114,
+    "vu_campana_oriente_filas": 71,
+    "vu_campana_oriente_sin_texto": 15,
+    "grupo_vu_detractores_con_texto": 298,
+    "grupo_vu_detractores_portillo_oriente": 6,
+    "lead_con_respuesta": 431,
+    "busqueda_consultas": 27
+  },
+  "corpus_n": {
+    "antonia": 31,
+    "tomas": 19,
+    "dolor": 729,
+    "comun_oriente": 6,
+    "busqueda": 26
+  },
+  "clusters": {
+    "antonia": {
+      "metodo": "HDBSCAN",
+      "k_kmeans": 3,
+      "silhouette_k": {
+        "2": 0.37926027178764343,
+        "3": 0.4104446768760681,
+        "4": 0.3947810232639313,
+        "5": 0.39402830600738525,
+        "6": 0.386539101600647
+      },
+      "ari_hdbscan_vs_kmeans": 0.542902824658021,
+      "estabilidad_primario": {
+        "c0": 0.675,
+        "c1": 0.161,
+        "c2": 0.593,
+        "c3": 0.555
+      },
+      "estabilidad_kmeans": {
+        "c0": 0.951,
+        "c1": 0.955,
+        "c2": 0.984
+      }
+    },
+    "tomas": {
+      "metodo": "HDBSCAN",
+      "k_kmeans": 2,
+      "silhouette_k": {
+        "2": 0.4735058844089508,
+        "3": 0.3451177179813385,
+        "4": 0.2772881090641022
+      },
+      "ari_hdbscan_vs_kmeans": 0.7891491985203453,
+      "estabilidad_primario": {
+        "c0": 0.753,
+        "c1": 0.824
+      },
+      "estabilidad_kmeans": {
+        "c0": 0.948,
+        "c1": 0.962
+      }
+    },
+    "dolor": {
+      "metodo": "HDBSCAN",
+      "k_kmeans": 6,
+      "silhouette_k": {
+        "2": 0.6957959532737732,
+        "3": 0.8072919249534607,
+        "4": 0.8619295954704285,
+        "5": 0.9353511333465576,
+        "6": 0.9554035663604736
+      },
+      "ari_hdbscan_vs_kmeans": 0.8484549497958181,
+      "estabilidad_primario": {
+        "c0": 0.563,
+        "c1": 0.874,
+        "c2": 0.96
+      },
+      "estabilidad_kmeans": {
+        "c0": 1.0,
+        "c1": 1.0,
+        "c2": 1.0,
+        "c3": 1.0,
+        "c4": 1.0,
+        "c5": 1.0
+      }
+    }
+  },
+  "modelo_embeddings": "paraphrase-multilingual-MiniLM-L12-v2",
+  "aristas_coocurrencia": 160
+}

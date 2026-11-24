@@ -1,0 +1,27 @@
+concepto,peso,cluster,polaridad,n_textos,estabilidad,ejemplo_row_id,etiqueta
+excelente,100.0,T1,valor,3,0.82,CR_2025-Venta-Usados#3764,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago
+vendedor,98.2,T0,valor,3,0.75,CR_2025-Venta-Usados#4077,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago
+atención,87.1,T1,valor,4,0.82,CR_2025-Venta-Usados#3764,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago
+excelente atención,78.6,T1,valor,2,0.82,CR_2025-Venta-Usados#3764,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · n<3 [HIPÓTESIS]
+experiencia,77.9,T1,valor,3,0.82,CR_2025-Venta-Usados#4047,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago
+compra,66.3,T0,dolor,3,0.75,CR_2025-Venta-Usados#50,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago
+solución,64.2,T0,valor,2,0.75,CR_2025-Venta-Usados#4077,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · n<3 [HIPÓTESIS]
+vehículo,42.3,T0,valor,2,0.75,CR_2025-Venta-Usados#3870,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · n<3 [HIPÓTESIS]
+auto,30.4,T0,valor,2,0.75,CR_2025-Venta-Usados#3290,[DATO] VU oriente; [HIPÓTESIS] asignación por canal/parte de pago · n<3 [HIPÓTESIS]
+ejecutivo,100.0,D2,dolor,306,0.96,CR_Lead-Portillo_202#2,[DATO] VU detractores grupo + CR_Lead-Portillo
+contacto,94.7,D2,dolor,279,0.96,CR_Lead-Portillo_202#2,[DATO] VU detractores grupo + CR_Lead-Portillo
+contacto ejecutivo,94.2,D2,dolor,276,0.96,CR_Lead-Portillo_202#2,[DATO] VU detractores grupo + CR_Lead-Portillo
+entregar,56.1,D1,dolor,83,0.87,CR_2025-Venta-Usados#1089,[DATO] VU detractores grupo + CR_Lead-Portillo
+entrega,44.8,D1,dolor,60,0.87,CR_2025-Venta-Usados#585,[DATO] VU detractores grupo + CR_Lead-Portillo
+proceso,43.2,D1,dolor,65,0.87,CR_2025-Venta-Usados#1076,[DATO] VU detractores grupo + CR_Lead-Portillo
+información,37.5,D1,dolor,56,0.87,CR_2025-Venta-Usados#3326,[DATO] VU detractores grupo + CR_Lead-Portillo
+opción,35.0,D0,dolor,59,0.56,CR_Lead-Portillo_202#3,[DATO] VU detractores grupo + CR_Lead-Portillo · cluster inestable [HIPÓTESIS]
+seminuevo,100.0,sin cluster (n<20 consultas),intención,11,NA,BQ-008,[WEB] research/15_busqueda_premium.md §2-3
+usado,80.6,sin cluster (n<20 consultas),intención,10,NA,BQ-008,[WEB] research/15_busqueda_premium.md §2-3
+auto usado,62.6,sin cluster (n<20 consultas),intención,7,NA,BQ-025,[WEB] research/15_busqueda_premium.md §2-3
+condes,53.6,sin cluster (n<20 consultas),intención,5,NA,BQ-025,[WEB] research/15_busqueda_premium.md §2-3
+vitacura,50.4,sin cluster (n<20 consultas),intención,5,NA,BQ-025,[WEB] research/15_busqueda_premium.md §2-3
+premium,44.5,sin cluster (n<20 consultas),intención,4,NA,BQ-008,[WEB] research/15_busqueda_premium.md §2-3
+providencia,35.0,sin cluster (n<20 consultas),intención,3,NA,BQ-008,[WEB] research/15_busqueda_premium.md §2-3
+seminuevo premium,35.0,sin cluster (n<20 consultas),intención,3,NA,BQ-025,[WEB] research/15_busqueda_premium.md §2-3
+garantir,33.4,sin cluster (n<20 consultas),intención,3,NA,BQ-008,[WEB] research/15_busqueda_premium.md §2-3

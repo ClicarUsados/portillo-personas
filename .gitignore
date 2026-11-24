@@ -1,0 +1,16 @@
+# entorno y basura
+.venv*/
+*.log
+.DS_Store
+__pycache__/
+# datos crudos y no anonimizados
+inputs_raw/
+inputs_clean/
+*.xlsx
+*.xls
+*.parquet
+# licencias y material interno pesado
+*.ttf
+*.otf
+*.pptx
+*.pdf

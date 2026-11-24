@@ -1,0 +1,37 @@
+{
+  "n_candidatos_verificados": 70,
+  "emb_model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "nli_status": "OK",
+  "antonia": {
+    "metodos": [
+      "emb",
+      "ppr",
+      "nli"
+    ],
+    "kendall": {
+      "emb-ppr": 0.663,
+      "emb-nli": 0.241,
+      "ppr-nli": 0.191
+    },
+    "robusto_criterio": "top 14 en todos los metodos disponibles (3/3; CF no corrio)",
+    "n_robusto": 5,
+    "n_estable": 65,
+    "cf_flags": []
+  },
+  "tomas": {
+    "metodos": [
+      "emb",
+      "ppr",
+      "nli"
+    ],
+    "kendall": {
+      "emb-ppr": 0.715,
+      "emb-nli": 0.161,
+      "ppr-nli": 0.116
+    },
+    "robusto_criterio": "top 14 en todos los metodos disponibles (3/3; CF no corrio)",
+    "n_robusto": 6,
+    "n_estable": 63,
+    "cf_flags": []
+  }
+}

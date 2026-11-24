@@ -1,0 +1,71 @@
+rank,candidato,tipo,score_sens
+1,Family Travel,interes,1.0
+2,Landscaping,interes,0.971
+3,Gardening,interes,0.9565
+4,Home Entertaining,interes,0.9565
+5,Honeymoons and Getaways,interes,0.8841
+6,Smart Home,interes,0.8696
+7,Outdoor Activities,actividad,0.8696
+8,Interior Decorating,interes,0.8696
+9,Excursiones naturales de un día cerca de Santiago,actividad,0.8623
+10,Parenting,interes,0.8478
+11,Trekking El Morado,actividad,0.8261
+12,Home Improvement,interes,0.8261
+13,Escapada de Semana Santa cerca de Santiago,momento,0.8116
+14,Adventure Travel,actividad,0.8116
+15,Parks & Nature,lugar,0.8043
+16,Dining Out,interes,0.7899
+17,Camping,actividad,0.7826
+18,Escapadas de verano a playa desde Santiago (menos de dos horas),momento,0.7609
+19,Day Trips,actividad,0.7536
+20,Road Trips,actividad,0.7319
+21,Fiestas Patrias (18-19 sep),momento,0.7029
+22,Playas del litoral central para ir en el día,lugar,0.6957
+23,South America Travel,lugar,0.6739
+24,Beach Travel,lugar,0.6594
+25,Barbecues and Grilling,interes,0.6377
+26,Workshops and Classes,interes,0.6232
+27,Participant Sports,actividad,0.6159
+28,Vacaciones de invierno escolares RM (22-jun a 3-jul 2026),momento,0.6159
+29,Running and Jogging,actividad,0.6087
+30,Cajón del Maipo (destino),lugar,0.5942
+31,Cooking,interes,0.5797
+32,Fitness and Exercise,interes,0.5507
+33,Escapada a playas cercanas a Santiago (itinerario de tres días),lugar,0.5145
+34,Pádel en Chile,actividad,0.5
+35,Home Financing,interes,0.4855
+36,Dónde jugar pádel en la Región Metropolitana,lugar,0.4855
+37,Inicio de clases y vuelta a clases (marzo),momento,0.4855
+38,Rutas en bicicleta en Santiago y alrededores,actividad,0.4855
+39,Afinidad Google: Green Living Enthusiasts,interes,0.4783
+40,Climbing,actividad,0.4493
+41,Running en Parque Bicentenario,actividad,0.4203
+42,Golf,actividad,0.3841
+43,Canoeing and Kayaking,actividad,0.3696
+44,Skiing,actividad,0.3696
+45,Esquí Valle Nevado,actividad,0.3623
+46,Cycling,actividad,0.3478
+47,"Centros de ski cerca de Santiago, temporada 2026",actividad,0.3406
+48,Bodybuilding,actividad,0.3406
+49,Photography,interes,0.3043
+50,Car Culture,interes,0.2899
+51,Travel Insurance,interes,0.2826
+52,Snowboarding,actividad,0.2826
+53,Afinidad Google: Vegetarians & Vegans,interes,0.2391
+54,Surfing and Bodyboarding,actividad,0.2246
+55,Afinidad Google: Golf Enthusiasts,interes,0.2174
+56,Afinidad Google: Yoga Lovers,interes,0.1957
+57,Auto Safety,interes,0.1812
+58,Afinidad Google: Weightlifters,interes,0.1667
+59,Auto Buying and Selling,interes,0.1522
+60,Green Vehicles,interes,0.1522
+61,Dogs,interes,0.1449
+62,Tennis,actividad,0.1377
+63,Martial Arts,actividad,0.1377
+64,Auto Shows,interes,0.1304
+65,Luxury Cars,interes,0.087
+66,Talk Radio,medio,0.0797
+67,SUV,interes,0.0725
+68,Sports Radio,medio,0.0652
+69,Public Radio,medio,0.058
+70,Certified Pre-Owned Cars,interes,0.0362

@@ -1,0 +1,281 @@
+persona,variante,atributo_agregado,candidato,id,rank_base,rank_variante,delta,flag_mayor_20
+antonia,genero_directo,mujer,Adventure Travel,I665,28,28,0,NO
+antonia,genero_directo,mujer,Family Travel,I666,21,21,0,NO
+antonia,genero_directo,mujer,Road Trips,I670,26,26,0,NO
+antonia,genero_directo,mujer,Beach Travel,I673,34,33,-1,NO
+antonia,genero_directo,mujer,Camping,I677,40,36,-4,NO
+antonia,genero_directo,mujer,Day Trips,I679,33,35,2,NO
+antonia,genero_directo,mujer,Honeymoons and Getaways,I667,47,47,0,NO
+antonia,genero_directo,mujer,South America Travel,I662,36,37,1,NO
+antonia,genero_directo,mujer,Outdoor Activities,I159,13,10,-3,NO
+antonia,genero_directo,mujer,Parks & Nature,I160,18,17,-1,NO
+antonia,genero_directo,mujer,Cycling,I492,41,40,-1,NO
+antonia,genero_directo,mujer,Skiing,I531,45,46,1,NO
+antonia,genero_directo,mujer,Snowboarding,I504,62,62,0,NO
+antonia,genero_directo,mujer,Tennis,I539,60,60,0,NO
+antonia,genero_directo,mujer,Golf,I512,48,49,1,NO
+antonia,genero_directo,mujer,Climbing,I500,38,38,0,NO
+antonia,genero_directo,mujer,Surfing and Bodyboarding,I505,68,68,0,NO
+antonia,genero_directo,mujer,Canoeing and Kayaking,I499,67,67,0,NO
+antonia,genero_directo,mujer,Running and Jogging,I227,57,56,-1,NO
+antonia,genero_directo,mujer,Participant Sports,I226,49,48,-1,NO
+antonia,genero_directo,mujer,Fitness and Exercise,I225,52,52,0,NO
+antonia,genero_directo,mujer,Bodybuilding,I549,51,51,0,NO
+antonia,genero_directo,mujer,Martial Arts,I520,65,64,-1,NO
+antonia,genero_directo,mujer,Photography,I255,54,55,1,NO
+antonia,genero_directo,mujer,Cooking,I216,31,31,0,NO
+antonia,genero_directo,mujer,Dining Out,I218,30,29,-1,NO
+antonia,genero_directo,mujer,Barbecues and Grilling,I215,44,39,-5,NO
+antonia,genero_directo,mujer,Home Entertaining,I279,6,4,-2,NO
+antonia,genero_directo,mujer,Home Improvement,I280,10,11,1,NO
+antonia,genero_directo,mujer,Landscaping,I284,1,1,0,NO
+antonia,genero_directo,mujer,Interior Decorating,I283,14,13,-1,NO
+antonia,genero_directo,mujer,Smart Home,I277,2,2,0,NO
+antonia,genero_directo,mujer,Gardening,I275,3,3,0,NO
+antonia,genero_directo,mujer,Workshops and Classes,I247,16,18,2,NO
+antonia,genero_directo,mujer,Parenting,I192,15,15,0,NO
+antonia,genero_directo,mujer,Certified Pre-Owned Cars,I18,25,27,2,NO
+antonia,genero_directo,mujer,Luxury Cars,I23,8,8,0,NO
+antonia,genero_directo,mujer,SUV,I6,12,12,0,NO
+antonia,genero_directo,mujer,Auto Buying and Selling,I30,5,5,0,NO
+antonia,genero_directo,mujer,Auto Safety,I35,4,6,2,NO
+antonia,genero_directo,mujer,Auto Shows,I36,9,9,0,NO
+antonia,genero_directo,mujer,Car Culture,I25,7,7,0,NO
+antonia,genero_directo,mujer,Green Vehicles,I22,11,14,3,NO
+antonia,genero_directo,mujer,Travel Insurance,I404,42,42,0,NO
+antonia,genero_directo,mujer,Home Financing,I407,37,41,4,NO
+antonia,genero_directo,mujer,Sports Radio,I370,39,43,4,NO
+antonia,genero_directo,mujer,Talk Radio,I371,22,23,1,NO
+antonia,genero_directo,mujer,Public Radio,I376,32,32,0,NO
+antonia,genero_directo,mujer,Dogs,I425,61,61,0,NO
+antonia,genero_directo,mujer,Cajón del Maipo (destino),L01,17,16,-1,NO
+antonia,genero_directo,mujer,Trekking El Morado,L02,19,19,0,NO
+antonia,genero_directo,mujer,Excursiones naturales de un día cerca de Santiago,L03,35,34,-1,NO
+antonia,genero_directo,mujer,Esquí Valle Nevado,L04,46,45,-1,NO
+antonia,genero_directo,mujer,"Centros de ski cerca de Santiago, temporada 2026",L05,70,70,0,NO
+antonia,genero_directo,mujer,Running en Parque Bicentenario,L06,55,54,-1,NO
+antonia,genero_directo,mujer,Rutas en bicicleta en Santiago y alrededores,L07,63,63,0,NO
+antonia,genero_directo,mujer,Pádel en Chile,L08,53,53,0,NO
+antonia,genero_directo,mujer,Dónde jugar pádel en la Región Metropolitana,L09,43,44,1,NO
+antonia,genero_directo,mujer,Escapada a playas cercanas a Santiago (itinerario de tres días),L10,66,66,0,NO
+antonia,genero_directo,mujer,Playas del litoral central para ir en el día,L11,20,20,0,NO
+antonia,genero_directo,mujer,Escapada de Semana Santa cerca de Santiago,L12,23,24,1,NO
+antonia,genero_directo,mujer,Fiestas Patrias (18-19 sep),L13,27,25,-2,NO
+antonia,genero_directo,mujer,Vacaciones de invierno escolares RM (22-jun a 3-jul 2026),L14,64,65,1,NO
+antonia,genero_directo,mujer,Inicio de clases y vuelta a clases (marzo),L15,24,22,-2,NO
+antonia,genero_directo,mujer,Escapadas de verano a playa desde Santiago (menos de dos horas),L16,50,50,0,NO
+antonia,genero_directo,mujer,Afinidad Google: Vegetarians & Vegans,G01,69,69,0,NO
+antonia,genero_directo,mujer,Afinidad Google: Green Living Enthusiasts,G02,29,30,1,NO
+antonia,genero_directo,mujer,Afinidad Google: Weightlifters,G03,56,58,2,NO
+antonia,genero_directo,mujer,Afinidad Google: Yoga Lovers,G04,59,57,-2,NO
+antonia,genero_directo,mujer,Afinidad Google: Golf Enthusiasts,G05,58,59,1,NO
+antonia,genero_cruzado,hombre,Adventure Travel,I665,28,28,0,NO
+antonia,genero_cruzado,hombre,Family Travel,I666,21,21,0,NO
+antonia,genero_cruzado,hombre,Road Trips,I670,26,26,0,NO
+antonia,genero_cruzado,hombre,Beach Travel,I673,34,34,0,NO
+antonia,genero_cruzado,hombre,Camping,I677,40,38,-2,NO
+antonia,genero_cruzado,hombre,Day Trips,I679,33,35,2,NO
+antonia,genero_cruzado,hombre,Honeymoons and Getaways,I667,47,47,0,NO
+antonia,genero_cruzado,hombre,South America Travel,I662,36,42,6,NO
+antonia,genero_cruzado,hombre,Outdoor Activities,I159,13,10,-3,NO
+antonia,genero_cruzado,hombre,Parks & Nature,I160,18,18,0,NO
+antonia,genero_cruzado,hombre,Cycling,I492,41,37,-4,NO
+antonia,genero_cruzado,hombre,Skiing,I531,45,45,0,NO
+antonia,genero_cruzado,hombre,Snowboarding,I504,62,64,2,NO
+antonia,genero_cruzado,hombre,Tennis,I539,60,60,0,NO
+antonia,genero_cruzado,hombre,Golf,I512,48,48,0,NO
+antonia,genero_cruzado,hombre,Climbing,I500,38,39,1,NO
+antonia,genero_cruzado,hombre,Surfing and Bodyboarding,I505,68,69,1,NO
+antonia,genero_cruzado,hombre,Canoeing and Kayaking,I499,67,67,0,NO
+antonia,genero_cruzado,hombre,Running and Jogging,I227,57,58,1,NO
+antonia,genero_cruzado,hombre,Participant Sports,I226,49,49,0,NO
+antonia,genero_cruzado,hombre,Fitness and Exercise,I225,52,52,0,NO
+antonia,genero_cruzado,hombre,Bodybuilding,I549,51,51,0,NO
+antonia,genero_cruzado,hombre,Martial Arts,I520,65,62,-3,NO
+antonia,genero_cruzado,hombre,Photography,I255,54,55,1,NO
+antonia,genero_cruzado,hombre,Cooking,I216,31,31,0,NO
+antonia,genero_cruzado,hombre,Dining Out,I218,30,29,-1,NO
+antonia,genero_cruzado,hombre,Barbecues and Grilling,I215,44,40,-4,NO
+antonia,genero_cruzado,hombre,Home Entertaining,I279,6,4,-2,NO
+antonia,genero_cruzado,hombre,Home Improvement,I280,10,11,1,NO
+antonia,genero_cruzado,hombre,Landscaping,I284,1,1,0,NO
+antonia,genero_cruzado,hombre,Interior Decorating,I283,14,13,-1,NO
+antonia,genero_cruzado,hombre,Smart Home,I277,2,2,0,NO
+antonia,genero_cruzado,hombre,Gardening,I275,3,3,0,NO
+antonia,genero_cruzado,hombre,Workshops and Classes,I247,16,19,3,NO
+antonia,genero_cruzado,hombre,Parenting,I192,15,15,0,NO
+antonia,genero_cruzado,hombre,Certified Pre-Owned Cars,I18,25,27,2,NO
+antonia,genero_cruzado,hombre,Luxury Cars,I23,8,8,0,NO
+antonia,genero_cruzado,hombre,SUV,I6,12,12,0,NO
+antonia,genero_cruzado,hombre,Auto Buying and Selling,I30,5,5,0,NO
+antonia,genero_cruzado,hombre,Auto Safety,I35,4,6,2,NO
+antonia,genero_cruzado,hombre,Auto Shows,I36,9,9,0,NO
+antonia,genero_cruzado,hombre,Car Culture,I25,7,7,0,NO
+antonia,genero_cruzado,hombre,Green Vehicles,I22,11,14,3,NO
+antonia,genero_cruzado,hombre,Travel Insurance,I404,42,43,1,NO
+antonia,genero_cruzado,hombre,Home Financing,I407,37,41,4,NO
+antonia,genero_cruzado,hombre,Sports Radio,I370,39,36,-3,NO
+antonia,genero_cruzado,hombre,Talk Radio,I371,22,23,1,NO
+antonia,genero_cruzado,hombre,Public Radio,I376,32,32,0,NO
+antonia,genero_cruzado,hombre,Dogs,I425,61,61,0,NO
+antonia,genero_cruzado,hombre,Cajón del Maipo (destino),L01,17,16,-1,NO
+antonia,genero_cruzado,hombre,Trekking El Morado,L02,19,17,-2,NO
+antonia,genero_cruzado,hombre,Excursiones naturales de un día cerca de Santiago,L03,35,33,-2,NO
+antonia,genero_cruzado,hombre,Esquí Valle Nevado,L04,46,46,0,NO
+antonia,genero_cruzado,hombre,"Centros de ski cerca de Santiago, temporada 2026",L05,70,68,-2,NO
+antonia,genero_cruzado,hombre,Running en Parque Bicentenario,L06,55,54,-1,NO
+antonia,genero_cruzado,hombre,Rutas en bicicleta en Santiago y alrededores,L07,63,63,0,NO
+antonia,genero_cruzado,hombre,Pádel en Chile,L08,53,53,0,NO
+antonia,genero_cruzado,hombre,Dónde jugar pádel en la Región Metropolitana,L09,43,44,1,NO
+antonia,genero_cruzado,hombre,Escapada a playas cercanas a Santiago (itinerario de tres días),L10,66,66,0,NO
+antonia,genero_cruzado,hombre,Playas del litoral central para ir en el día,L11,20,20,0,NO
+antonia,genero_cruzado,hombre,Escapada de Semana Santa cerca de Santiago,L12,23,22,-1,NO
+antonia,genero_cruzado,hombre,Fiestas Patrias (18-19 sep),L13,27,24,-3,NO
+antonia,genero_cruzado,hombre,Vacaciones de invierno escolares RM (22-jun a 3-jul 2026),L14,64,65,1,NO
+antonia,genero_cruzado,hombre,Inicio de clases y vuelta a clases (marzo),L15,24,25,1,NO
+antonia,genero_cruzado,hombre,Escapadas de verano a playa desde Santiago (menos de dos horas),L16,50,50,0,NO
+antonia,genero_cruzado,hombre,Afinidad Google: Vegetarians & Vegans,G01,69,70,1,NO
+antonia,genero_cruzado,hombre,Afinidad Google: Green Living Enthusiasts,G02,29,30,1,NO
+antonia,genero_cruzado,hombre,Afinidad Google: Weightlifters,G03,56,57,1,NO
+antonia,genero_cruzado,hombre,Afinidad Google: Yoga Lovers,G04,59,56,-3,NO
+antonia,genero_cruzado,hombre,Afinidad Google: Golf Enthusiasts,G05,58,59,1,NO
+antonia,comuna_directa,La Dehesa,Adventure Travel,I665,28,28,0,NO
+antonia,comuna_directa,La Dehesa,Family Travel,I666,21,22,1,NO
+antonia,comuna_directa,La Dehesa,Road Trips,I670,26,26,0,NO
+antonia,comuna_directa,La Dehesa,Beach Travel,I673,34,34,0,NO
+antonia,comuna_directa,La Dehesa,Camping,I677,40,36,-4,NO
+antonia,comuna_directa,La Dehesa,Day Trips,I679,33,35,2,NO
+antonia,comuna_directa,La Dehesa,Honeymoons and Getaways,I667,47,46,-1,NO
+antonia,comuna_directa,La Dehesa,South America Travel,I662,36,37,1,NO
+antonia,comuna_directa,La Dehesa,Outdoor Activities,I159,13,10,-3,NO
+antonia,comuna_directa,La Dehesa,Parks & Nature,I160,18,18,0,NO
+antonia,comuna_directa,La Dehesa,Cycling,I492,41,38,-3,NO
+antonia,comuna_directa,La Dehesa,Skiing,I531,45,47,2,NO
+antonia,comuna_directa,La Dehesa,Snowboarding,I504,62,63,1,NO
+antonia,comuna_directa,La Dehesa,Tennis,I539,60,60,0,NO
+antonia,comuna_directa,La Dehesa,Golf,I512,48,49,1,NO
+antonia,comuna_directa,La Dehesa,Climbing,I500,38,39,1,NO
+antonia,comuna_directa,La Dehesa,Surfing and Bodyboarding,I505,68,69,1,NO
+antonia,comuna_directa,La Dehesa,Canoeing and Kayaking,I499,67,67,0,NO
+antonia,comuna_directa,La Dehesa,Running and Jogging,I227,57,56,-1,NO
+antonia,comuna_directa,La Dehesa,Participant Sports,I226,49,51,2,NO
+antonia,comuna_directa,La Dehesa,Fitness and Exercise,I225,52,52,0,NO
+antonia,comuna_directa,La Dehesa,Bodybuilding,I549,51,50,-1,NO
+antonia,comuna_directa,La Dehesa,Martial Arts,I520,65,64,-1,NO
+antonia,comuna_directa,La Dehesa,Photography,I255,54,55,1,NO
+antonia,comuna_directa,La Dehesa,Cooking,I216,31,32,1,NO
+antonia,comuna_directa,La Dehesa,Dining Out,I218,30,29,-1,NO
+antonia,comuna_directa,La Dehesa,Barbecues and Grilling,I215,44,44,0,NO
+antonia,comuna_directa,La Dehesa,Home Entertaining,I279,6,5,-1,NO
+antonia,comuna_directa,La Dehesa,Home Improvement,I280,10,11,1,NO
+antonia,comuna_directa,La Dehesa,Landscaping,I284,1,1,0,NO
+antonia,comuna_directa,La Dehesa,Interior Decorating,I283,14,14,0,NO
+antonia,comuna_directa,La Dehesa,Smart Home,I277,2,2,0,NO
+antonia,comuna_directa,La Dehesa,Gardening,I275,3,3,0,NO
+antonia,comuna_directa,La Dehesa,Workshops and Classes,I247,16,19,3,NO
+antonia,comuna_directa,La Dehesa,Parenting,I192,15,16,1,NO
+antonia,comuna_directa,La Dehesa,Certified Pre-Owned Cars,I18,25,27,2,NO
+antonia,comuna_directa,La Dehesa,Luxury Cars,I23,8,8,0,NO
+antonia,comuna_directa,La Dehesa,SUV,I6,12,12,0,NO
+antonia,comuna_directa,La Dehesa,Auto Buying and Selling,I30,5,6,1,NO
+antonia,comuna_directa,La Dehesa,Auto Safety,I35,4,4,0,NO
+antonia,comuna_directa,La Dehesa,Auto Shows,I36,9,9,0,NO
+antonia,comuna_directa,La Dehesa,Car Culture,I25,7,7,0,NO
+antonia,comuna_directa,La Dehesa,Green Vehicles,I22,11,13,2,NO
+antonia,comuna_directa,La Dehesa,Travel Insurance,I404,42,41,-1,NO
+antonia,comuna_directa,La Dehesa,Home Financing,I407,37,40,3,NO
+antonia,comuna_directa,La Dehesa,Sports Radio,I370,39,42,3,NO
+antonia,comuna_directa,La Dehesa,Talk Radio,I371,22,23,1,NO
+antonia,comuna_directa,La Dehesa,Public Radio,I376,32,33,1,NO
+antonia,comuna_directa,La Dehesa,Dogs,I425,61,61,0,NO
+antonia,comuna_directa,La Dehesa,Cajón del Maipo (destino),L01,17,15,-2,NO
+antonia,comuna_directa,La Dehesa,Trekking El Morado,L02,19,17,-2,NO
+antonia,comuna_directa,La Dehesa,Excursiones naturales de un día cerca de Santiago,L03,35,31,-4,NO
+antonia,comuna_directa,La Dehesa,Esquí Valle Nevado,L04,46,45,-1,NO
+antonia,comuna_directa,La Dehesa,"Centros de ski cerca de Santiago, temporada 2026",L05,70,68,-2,NO
+antonia,comuna_directa,La Dehesa,Running en Parque Bicentenario,L06,55,54,-1,NO
+antonia,comuna_directa,La Dehesa,Rutas en bicicleta en Santiago y alrededores,L07,63,62,-1,NO
+antonia,comuna_directa,La Dehesa,Pádel en Chile,L08,53,53,0,NO
+antonia,comuna_directa,La Dehesa,Dónde jugar pádel en la Región Metropolitana,L09,43,43,0,NO
+antonia,comuna_directa,La Dehesa,Escapada a playas cercanas a Santiago (itinerario de tres días),L10,66,65,-1,NO
+antonia,comuna_directa,La Dehesa,Playas del litoral central para ir en el día,L11,20,20,0,NO
+antonia,comuna_directa,La Dehesa,Escapada de Semana Santa cerca de Santiago,L12,23,21,-2,NO
+antonia,comuna_directa,La Dehesa,Fiestas Patrias (18-19 sep),L13,27,24,-3,NO
+antonia,comuna_directa,La Dehesa,Vacaciones de invierno escolares RM (22-jun a 3-jul 2026),L14,64,66,2,NO
+antonia,comuna_directa,La Dehesa,Inicio de clases y vuelta a clases (marzo),L15,24,25,1,NO
+antonia,comuna_directa,La Dehesa,Escapadas de verano a playa desde Santiago (menos de dos horas),L16,50,48,-2,NO
+antonia,comuna_directa,La Dehesa,Afinidad Google: Vegetarians & Vegans,G01,69,70,1,NO
+antonia,comuna_directa,La Dehesa,Afinidad Google: Green Living Enthusiasts,G02,29,30,1,NO
+antonia,comuna_directa,La Dehesa,Afinidad Google: Weightlifters,G03,56,59,3,NO
+antonia,comuna_directa,La Dehesa,Afinidad Google: Yoga Lovers,G04,59,57,-2,NO
+antonia,comuna_directa,La Dehesa,Afinidad Google: Golf Enthusiasts,G05,58,58,0,NO
+antonia,comuna_cruzada,Providencia,Adventure Travel,I665,28,28,0,NO
+antonia,comuna_cruzada,Providencia,Family Travel,I666,21,21,0,NO
+antonia,comuna_cruzada,Providencia,Road Trips,I670,26,27,1,NO
+antonia,comuna_cruzada,Providencia,Beach Travel,I673,34,33,-1,NO
+antonia,comuna_cruzada,Providencia,Camping,I677,40,36,-4,NO
+antonia,comuna_cruzada,Providencia,Day Trips,I679,33,34,1,NO
+antonia,comuna_cruzada,Providencia,Honeymoons and Getaways,I667,47,45,-2,NO
+antonia,comuna_cruzada,Providencia,South America Travel,I662,36,38,2,NO
+antonia,comuna_cruzada,Providencia,Outdoor Activities,I159,13,12,-1,NO
+antonia,comuna_cruzada,Providencia,Parks & Nature,I160,18,17,-1,NO
+antonia,comuna_cruzada,Providencia,Cycling,I492,41,42,1,NO
+antonia,comuna_cruzada,Providencia,Skiing,I531,45,46,1,NO
+antonia,comuna_cruzada,Providencia,Snowboarding,I504,62,62,0,NO
+antonia,comuna_cruzada,Providencia,Tennis,I539,60,60,0,NO
+antonia,comuna_cruzada,Providencia,Golf,I512,48,50,2,NO
+antonia,comuna_cruzada,Providencia,Climbing,I500,38,41,3,NO
+antonia,comuna_cruzada,Providencia,Surfing and Bodyboarding,I505,68,69,1,NO
+antonia,comuna_cruzada,Providencia,Canoeing and Kayaking,I499,67,67,0,NO
+antonia,comuna_cruzada,Providencia,Running and Jogging,I227,57,56,-1,NO
+antonia,comuna_cruzada,Providencia,Participant Sports,I226,49,48,-1,NO
+antonia,comuna_cruzada,Providencia,Fitness and Exercise,I225,52,54,2,NO
+antonia,comuna_cruzada,Providencia,Bodybuilding,I549,51,51,0,NO
+antonia,comuna_cruzada,Providencia,Martial Arts,I520,65,65,0,NO
+antonia,comuna_cruzada,Providencia,Photography,I255,54,53,-1,NO
+antonia,comuna_cruzada,Providencia,Cooking,I216,31,31,0,NO
+antonia,comuna_cruzada,Providencia,Dining Out,I218,30,30,0,NO
+antonia,comuna_cruzada,Providencia,Barbecues and Grilling,I215,44,44,0,NO
+antonia,comuna_cruzada,Providencia,Home Entertaining,I279,6,5,-1,NO
+antonia,comuna_cruzada,Providencia,Home Improvement,I280,10,10,0,NO
+antonia,comuna_cruzada,Providencia,Landscaping,I284,1,1,0,NO
+antonia,comuna_cruzada,Providencia,Interior Decorating,I283,14,13,-1,NO
+antonia,comuna_cruzada,Providencia,Smart Home,I277,2,2,0,NO
+antonia,comuna_cruzada,Providencia,Gardening,I275,3,3,0,NO
+antonia,comuna_cruzada,Providencia,Workshops and Classes,I247,16,16,0,NO
+antonia,comuna_cruzada,Providencia,Parenting,I192,15,15,0,NO
+antonia,comuna_cruzada,Providencia,Certified Pre-Owned Cars,I18,25,25,0,NO
+antonia,comuna_cruzada,Providencia,Luxury Cars,I23,8,8,0,NO
+antonia,comuna_cruzada,Providencia,SUV,I6,12,14,2,NO
+antonia,comuna_cruzada,Providencia,Auto Buying and Selling,I30,5,6,1,NO
+antonia,comuna_cruzada,Providencia,Auto Safety,I35,4,4,0,NO
+antonia,comuna_cruzada,Providencia,Auto Shows,I36,9,9,0,NO
+antonia,comuna_cruzada,Providencia,Car Culture,I25,7,7,0,NO
+antonia,comuna_cruzada,Providencia,Green Vehicles,I22,11,11,0,NO
+antonia,comuna_cruzada,Providencia,Travel Insurance,I404,42,39,-3,NO
+antonia,comuna_cruzada,Providencia,Home Financing,I407,37,37,0,NO
+antonia,comuna_cruzada,Providencia,Sports Radio,I370,39,40,1,NO
+antonia,comuna_cruzada,Providencia,Talk Radio,I371,22,24,2,NO
+antonia,comuna_cruzada,Providencia,Public Radio,I376,32,32,0,NO
+antonia,comuna_cruzada,Providencia,Dogs,I425,61,61,0,NO
+antonia,comuna_cruzada,Providencia,Cajón del Maipo (destino),L01,17,18,1,NO
+antonia,comuna_cruzada,Providencia,Trekking El Morado,L02,19,19,0,NO
+antonia,comuna_cruzada,Providencia,Excursiones naturales de un día cerca de Santiago,L03,35,35,0,NO
+antonia,comuna_cruzada,Providencia,Esquí Valle Nevado,L04,46,47,1,NO
+antonia,comuna_cruzada,Providencia,"Centros de ski cerca de Santiago, temporada 2026",L05,70,68,-2,NO
+antonia,comuna_cruzada,Providencia,Running en Parque Bicentenario,L06,55,55,0,NO
+antonia,comuna_cruzada,Providencia,Rutas en bicicleta en Santiago y alrededores,L07,63,63,0,NO
+antonia,comuna_cruzada,Providencia,Pádel en Chile,L08,53,52,-1,NO
+antonia,comuna_cruzada,Providencia,Dónde jugar pádel en la Región Metropolitana,L09,43,43,0,NO
+antonia,comuna_cruzada,Providencia,Escapada a playas cercanas a Santiago (itinerario de tres días),L10,66,66,0,NO
+antonia,comuna_cruzada,Providencia,Playas del litoral central para ir en el día,L11,20,20,0,NO
+antonia,comuna_cruzada,Providencia,Escapada de Semana Santa cerca de Santiago,L12,23,22,-1,NO
+antonia,comuna_cruzada,Providencia,Fiestas Patrias (18-19 sep),L13,27,26,-1,NO
+antonia,comuna_cruzada,Providencia,Vacaciones de invierno escolares RM (22-jun a 3-jul 2026),L14,64,64,0,NO
+antonia,comuna_cruzada,Providencia,Inicio de clases y vuelta a clases (marzo),L15,24,23,-1,NO
+antonia,comuna_cruzada,Providencia,Escapadas de verano a playa desde Santiago (menos de dos horas),L16,50,49,-1,NO
+antonia,comuna_cruzada,Providencia,Afinidad Google: Vegetarians & Vegans,G01,69,70,1,NO
+antonia,comuna_cruzada,Providencia,Afinidad Google: Green Living Enthusiasts,G02,29,29,0,NO
+antonia,comuna_cruzada,Providencia,Afinidad Google: Weightlifters,G03,56,58,2,NO
+antonia,comuna_cruzada,Providencia,Afinidad Google: Yoga Lovers,G04,59,59,0,NO
+antonia,comuna_cruzada,Providencia,Afinidad Google: Golf Enthusiasts,G05,58,57,-1,NO

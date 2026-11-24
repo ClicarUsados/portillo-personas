@@ -1,0 +1,490 @@
+# Diccionario de datos — Fase 0
+
+Fuente: inputs_clean/*.parquet (generados por analisis/00_anonimizar.py desde inputs_raw/).
+Fecha de extracción de los archivos: 2026-11-23.
+
+## Estado de CASOS_PBI__2_.xlsx (hojas Case / Hoja1)
+
+**NO VERIFICADO / BLOQUEADO.** El archivo no está en inputs_raw/ (no se encontró en el home 
+del usuario al buscar CASOS_PBI*.xlsx). Dependencia: Beto (entregar el archivo). 
+La validación de Hoja1 (empresa, area_negocio, motivo_reclamo en 0.0; ciudad vacía) queda 
+pendiente hasta tener el archivo.
+
+## CR_2025-Mecánica_2025-03-01_2026-11-23_4ee29087__sin_segmento.parquet
+
+- Filas: **27516** | Columnas: 58
+- Rango de fechas: fecha respuesta: 2025-03-04 a 2026-11-23 (válidas 27516)
+- Nulos en columnas relevantes:
+  - `fecha respuesta`: 0 (0.0%)
+  - `fecha_cierre_ot`: 0 (0.0%)
+  - `sentimiento`: 7248 (26.3%)
+  - `Macrocategoría 1`: 9810 (35.7%)
+  - `Microcategoría 1`: 7318 (26.6%)
+- Valores de `des_marca` (top 15, 77 únicos):
+  - TOYOTA: 3744
+  - CHEVROLET: 3513
+  - MG: 2140
+  - NISSAN: 1983
+  - FORD: 1672
+  - PEUGEOT: 1539
+  - SUBARU: 1347
+  - MITSUBISHI: 953
+  - HONDA: 951
+  - VOLKSWAGEN: 934
+  - KIA MOTORS: 843
+  - KIA: 841
+  - HYUNDAI: 671
+  - CHERY: 571
+  - RAM: 539
+- Valores de `marca` (top 15, 78 únicos):
+  - TO: 3744
+  - CV: 3490
+  - MG: 2140
+  - NI: 1983
+  - KI: 1684
+  - FO: 1671
+  - PE: 1539
+  - SU: 1347
+  - MI: 953
+  - HO: 951
+  - VW: 933
+  - HY: 665
+  - SS: 582
+  - CR: 571
+  - RAM: 539
+- Valores de `marca_sucursal` (top 15, 62 únicos):
+  - TOYOTA: 3835
+  - CHEVROLET: 3517
+  - OTRAS MARCAS: 2940
+  - NISSAN: 2044
+  - MG: 2042
+  - FORD: 1667
+  - PEUGEOT: 1579
+  - SUBARU: 1342
+  - HONDA: 950
+  - MITSUBISHI: 944
+  - VOLKSWAGEN: 932
+  - HYUNDAI: 652
+  - CHERY: 568
+  - KIA MOTORS: 527
+  - SSANGYONG: 474
+- Valores de `nombre_sucursal` (top 15, 97 únicos):
+  - ACSA PRAT SERVICIOS: 2500
+  - GAP VITACURA 5555 SERVICIO T: 1451
+  - ACSA TEMUCO SERVICIOS FORD: 1123
+  - ACSA SANTIAGO CERRILLOS SERV: 969
+  - ACSA TEMUCO SAN MARTIN SERVI: 908
+  - ACSA VALDIVIA SERVICIO: 831
+  - GAP TOYOTA BILBAO SERVICIO: 767
+  - ACSA PAICAVI SERVICIOS: 703
+  - <vacío>: 619
+  - DENALI SPA MALL PLAZA OESTE S: 583
+  - GAP VICUNA MACKENNA SERVICIO: 551
+  - VITACURA KIA: 526
+  - ACSA SANTIAGO LA DEHESA SERV: 516
+  - ACSA LOS ANGELES SERVICIO: 515
+  - GAP LA DEHESA SERVICIO: 500
+- Valores de `area_de_negocio` (top 15, 3 únicos):
+  - MECANICA: 27505
+  - MECÁNICA: 10
+  - <vacío>: 1
+- Valores de `empresa` (top 15, 1 únicos):
+  - Grupo Americar: 27516
+
+## CR_2025-Venta-Nuevo_2025-03-01_2026-11-23_f2f6b8ef__sin_segmento.parquet
+
+- Filas: **6458** | Columnas: 76
+- Rango de fechas: fecha respuesta: 2025-03-05 a 2026-11-23 (válidas 6458)
+- Nulos en columnas relevantes:
+  - `fecha respuesta`: 0 (0.0%)
+  - `fecha`: 1 (0.0%)
+  - `sentimiento`: 1553 (24.0%)
+  - `Macrocategoría 1`: 2096 (32.5%)
+  - `Microcategoría 1`: 1555 (24.1%)
+- Valores de `des_marca` (top 15, 59 únicos):
+  - MG: 811
+  - CHEVROLET: 665
+  - TOYOTA: 563
+  - FORD: 441
+  - KIA: 336
+  - VOLKSWAGEN: 330
+  - KIA MOTORS: 303
+  - SUBARU: 263
+  - SUZUKI: 229
+  - MITSUBISHI: 227
+  - HONDA: 192
+  - HYUNDAI: 188
+  - NISSAN: 166
+  - CHERY: 162
+  - PEUGEOT: 133
+- Valores de `marca` (top 15, 55 únicos):
+  - MG: 811
+  - CV: 665
+  - KI: 639
+  - TO: 563
+  - FO: 441
+  - VW: 330
+  - SU: 263
+  - SZ: 229
+  - MI: 227
+  - HO: 192
+  - HY: 188
+  - NI: 166
+  - CR: 162
+  - PE: 133
+  - JT: 132
+- Valores de `nombre_concesionario` (top 15, 288 únicos):
+  - DENALI SPA MPO SUZUKI: 223
+  - PORT TOYOTA MOVICENTER: 166
+  - SAIS MG MALL PLAZA OESTE: 147
+  - PORT TOYOTA VITACURA: 136
+  - SAIS FORD MALL PLAZA OESTE: 126
+  - SAIS KIA CAUPOLICAN: 111
+  - DENALI SPA MPO CHANGAN: 106
+  - PORT TOYOTA BILBAO: 103
+  - COSE CHEV PLAZA OESTE: 96
+  - COSE CHEV RANCAGUA: 89
+  - SAIS HONDA MOVICENTER: 89
+  - SAIS VW MALL PLAZA OESTE: 88
+  - DENALI SPA MPO MAZDA: 84
+  - SAIS KIA MALL PLAZA TRBOL: 81
+  - SAIS CHERY CAUPOLICAN: 79
+- Valores de `concesionario` (top 15, 273 únicos):
+  - 2107: 223
+  - 254: 166
+  - 702G: 147
+  - 222: 136
+  - 704: 126
+  - 182: 111
+  - 111: 107
+  - 2104: 106
+  - 226: 103
+  - 338: 96
+  - 352: 89
+  - 730: 89
+  - 705: 88
+  - 2102: 84
+  - 753: 79
+- Valores de `tipo_de_cuenta` (top 15, 11 únicos):
+  - PERSONA NATURAL: 5711
+  - PERSONA JURÍDICA: 594
+  - POTENCIALES: 117
+  - EMPLEADOS/FUNCIONARIOS: 14
+  - CREDITOS AUTORIZADOS: 7
+  - FLOTAS: 4
+  - CONCESIONARIO: 4
+  - MAYORISTA DE REPUESTOS: 3
+  - ORGANISMOS PUBLICOS: 2
+  - EMPRESA RELACIONADA: 1
+  - <vacío>: 1
+- Valores de `grupo` (top 15, 7 únicos):
+  - <vacío>: 4376
+  - ASTARA: 658
+  - INDUMOTORA: 581
+  - INCHCAPE: 332
+  - PORSCHE: 282
+  - ANDES MOTOR: 159
+  - DITEC: 70
+- Valores de `empresa` (top 15, 1 únicos):
+  - Grupo Americar: 6458
+
+## CR_2025-Venta-Usados_2023-03-01_2026-11-23_eda66aaf__sin_segmento.parquet
+
+- Filas: **4103** | Columnas: 88
+- Rango de fechas: fecha respuesta: 2025-03-03 a 2026-11-23 (válidas 4103)
+- Nulos en columnas relevantes:
+  - `fecha respuesta`: 0 (0.0%)
+  - `fecha`: 1 (0.0%)
+  - `fecha_cierre_ot`: 4103 (100.0%)
+  - `sentimiento`: 987 (24.1%)
+  - `Macrocategoría 1`: 1378 (33.6%)
+  - `Microcategoría 1`: 993 (24.2%)
+- Valores de `des_marca` (top 15, 72 únicos):
+  - CHEVROLET: 407
+  - MG: 286
+  - PEUGEOT: 277
+  - NISSAN: 263
+  - VOLKSWAGEN: 212
+  - SUZUKI: 206
+  - TOYOTA: 205
+  - HYUNDAI: 198
+  - FORD: 185
+  - CHERY: 178
+  - KIA: 165
+  - KIA MOTORS: 152
+  - SUBARU: 123
+  - MAZDA: 108
+  - JAC: 93
+- Valores de `marca` (top 15, 66 únicos):
+  - CV: 407
+  - KI: 317
+  - MG: 286
+  - PE: 277
+  - NI: 263
+  - VW: 212
+  - SZ: 206
+  - TO: 205
+  - HY: 198
+  - FO: 185
+  - CR: 178
+  - SU: 123
+  - MA: 108
+  - JAC: 93
+  - CI: 75
+- Valores de `marca_sucursal` (top 15, 1 únicos):
+  - <vacío>: 4103
+- Valores de `nombre_sucursal` (top 15, 1 únicos):
+  - <vacío>: 4103
+- Valores de `nombre_concesionario` (top 15, 149 únicos):
+  - USADOS MOVICENTER A VESPUCIO 1155: 276
+  - USADOS AUTOPARK DEPARTAMENTAL 4500: 217
+  - USADOS CARSHOPPING A VESPUCIO 2451: 145
+  - USADOS CONCEPCION PAICAV 2592: 137
+  - USADOS TALCA SAN MIGUEL 2790: 119
+  - USADOS CERRILLOS PEDRO A CERDA 669: 116
+  - USADOS VITACURA 5555: 105
+  - USADOS CHILLAN ECUADOR 768: 105
+  - USADOS LOS ANGELES INDUSTRIAS 7730: 93
+  - USADOS LAS ANIMAS P A CERDA 410: 93
+  - USADOS LOS ANGELES AV ALEMANIA 410: 91
+  - USADOS TEMUCO HOCHSTETTER 976: 90
+  - USADOS TEMUCO TOLOSA CAUPOLICN 149: 90
+  - USADOS VEGA 21 DE MAYO 3225: 87
+  - USADOS CHILLAN AV BRASIL 80: 86
+- Valores de `concesionario` (top 15, 105 únicos):
+  - 707: 345
+  - 728: 260
+  - 102: 185
+  - 735: 164
+  - 167: 146
+  - 137: 141
+  - 719: 131
+  - 180: 125
+  - 160: 114
+  - 114: 112
+  - 146: 106
+  - 746: 106
+  - 9004: 105
+  - 190: 103
+  - 842: 96
+- Valores de `tipo_de_cuenta` (top 15, 6 únicos):
+  - PERSONA NATURAL: 3771
+  - PERSONA JURÍDICA: 168
+  - POTENCIALES: 121
+  - EMPLEADOS/FUNCIONARIOS: 39
+  - <vacío>: 2
+  - FONDOS FIJOS: 2
+- Valores de `area_de_negocio` (top 15, 1 únicos):
+  - <vacío>: 4103
+- Valores de `grupo` (top 15, 7 únicos):
+  - <vacío>: 2877
+  - ASTARA: 437
+  - INDUMOTORA: 282
+  - PORSCHE: 234
+  - INCHCAPE: 149
+  - DITEC: 66
+  - ANDES MOTOR: 58
+- Valores de `empresa` (top 15, 1 únicos):
+  - Grupo Americar: 4103
+
+## CR_Clicar_2023-03-01_2026-11-23_56ee57c8__sin_segmento.parquet
+
+- Filas: **223** | Columnas: 35
+- Rango de fechas: fecha respuesta: 2023-06-30 a 2024-04-08 (válidas 223)
+- Nulos en columnas relevantes:
+  - `fecha respuesta`: 0 (0.0%)
+  - `fecha_pa`: 1 (0.4%)
+- Valores de `des_marca` (top 15, 38 únicos):
+  - SUZUKI: 18
+  - MG: 18
+  - KIA: 16
+  - CHERY: 15
+  - NISSAN: 15
+  - HYUNDAI: 13
+  - CHEVROLET: 11
+  - VOLKSWAGEN: 9
+  - TOYOTA: 9
+  - MAZDA: 9
+  - FORD: 8
+  - PEUGEOT: 8
+  - RENAULT: 7
+  - GREAT WALL: 6
+  - MITSUBISHI: 6
+- Valores de `nombre_sucursal` (top 15, 30 únicos):
+  - MALL PLAZA SUR: 31
+  - MOVICENTER: 29
+  - AUTO PLAZA VESPUCIO: 25
+  - MALL PLAZA OESTE: 16
+  - <vacío>: 12
+  - MACUL AUTOSHOPPING: 11
+  - COSTANERA CENTER: 11
+  - TOYOTA AV VITACURA: 10
+  - SALAZAR ISRAEL PRAT: 10
+  - ALESSANDRI SALAZAR ISRAEL: 8
+  - INSPECCION VIRTUAL SANTIAGO NORTE: 8
+  - SALAZAR ISRAEL SUBARU ECUADOR: 7
+  - LOS ANGELES LAS INDUSTRIAS: 7
+  - BILBAO TOYOTA: 5
+  - ESTORIL NISSAN: 5
+- Valores de `empresa` (top 15, 1 únicos):
+  - Grupo Americar: 223
+
+## CR_Encuesta-de-seguridad-vial-en-Chile_2023-03-01_2026-11-23_ebe2e042__sin_segmento.parquet
+
+- Filas: **709** | Columnas: 35
+- Rango de fechas: fecha respuesta: 2025-10-22 a 2025-10-29 (válidas 709)
+- Nulos en columnas relevantes:
+  - `fecha respuesta`: 0 (0.0%)
+  - `fecha`: 0 (0.0%)
+- Valores de `des_marca` (top 15, 42 únicos):
+  - MG: 86
+  - CHEVROLET: 76
+  - TOYOTA: 60
+  - FORD: 48
+  - NISSAN: 44
+  - SUBARU: 43
+  - KIA MOTORS: 33
+  - HONDA: 32
+  - MITSUBISHI: 29
+  - VOLKSWAGEN: 24
+  - SSANGYONG: 19
+  - PEUGEOT: 17
+  - HYUNDAI: 16
+  - CHERY: 15
+  - KIA: 15
+- Valores de `nombre_concesionario` (top 15, 265 únicos):
+  - SAIS SUBARU PRAT: 18
+  - SAIS HONDA MOVICENTER: 15
+  - PORT TOYOTA VITACURA: 14
+  - DENALI SPA MPO SUZUKI: 13
+  - PORT TOYOTA MOVICENTER: 10
+  - SAIS KIA CAUPOLICAN: 9
+  - SAIS DFSK MOVICENTER: 9
+  - SAIS CHERY CAUPOLICAN: 9
+  - SAIS SUBARU LAS BANDERAS: 8
+  - SAIS FORD LAS BANDERAS: 8
+  - DENALI SPA MPO CHANGAN: 8
+  - SAIS SSY MALL PLAZA OESTE: 8
+  - SAIS FORD LA DEHESA: 8
+  - SAIS KIA LAS BANDERAS: 8
+  - SAIS NISSAN SAN FELIPE: 7
+- Valores de `empresa` (top 15, 1 únicos):
+  - Grupo Americar: 709
+
+## CR_Encuesta-funcionalidades-Web_2023-03-01_2026-11-23_9f03c80b__sin_segmento.parquet
+
+- Filas: **324** | Columnas: 46
+- Rango de fechas: fecha respuesta: 2025-07-18 a 2025-08-23 (válidas 324)
+- Nulos en columnas relevantes:
+  - `fecha respuesta`: 0 (0.0%)
+  - `fec_factura`: 0 (0.0%)
+  - `nps`: 0 (0.0%)
+- Valores de `des_marca` (top 15, 34 únicos):
+  - MG: 36
+  - CHEVROLET: 28
+  - TOYOTA: 26
+  - NISSAN: 23
+  - KIA MOTORS: 23
+  - VOLKSWAGEN: 18
+  - SUBARU: 18
+  - FORD: 16
+  - HONDA: 16
+  - PEUGEOT: 14
+  - CHERY: 13
+  - MITSUBISHI: 10
+  - DFSK: 9
+  - JETOUR: 8
+  - SSANGYONG: 8
+- Valores de `nombre_concesionario` (top 15, 184 únicos):
+  - SAIS CHERY CAUPOLICAN: 7
+  - TOYOTA MOVICENTER: 7
+  - SAIS DFSK MOVICENTER: 5
+  - NISSAN LA DEHESA: 5
+  - SAIS VOLVO ALESSANDRI: 5
+  - SAIS SUBARU LAS BANDERAS: 5
+  - SAIS VW LOS ANGELES: 5
+  - SAIS MG MALL PLAZA OESTE: 4
+  - CAUPOLICAN CHERY: 4
+  - TOYOTA IRARRAZAVAL: 4
+  - SAIS FORD LAS BANDERAS: 4
+  - SAIS KIA CAUPOLICAN: 4
+  - SAIS HONDA MOVICENTER: 4
+  - SAIS SUBARU CHILLAN BRASIL: 4
+  - CURICO CHEVROLET: 4
+- Valores de `concesionario` (top 15, 144 únicos):
+  - 753: 11
+  - 254: 8
+  - 233: 7
+  - 844: 6
+  - 297: 6
+  - 189: 6
+  - 730: 6
+  - 805: 5
+  - 702G: 5
+  - 230: 5
+  - 182: 5
+  - 117V: 5
+  - 222: 5
+  - 145: 5
+  - 136U: 5
+- Valores de `tipo_de_cuenta` (top 15, 4 únicos):
+  - PERSONA NATURAL: 289
+  - PERSONA JURÍDICA: 24
+  - POTENCIALES: 8
+  - EMPLEADOS/FUNCIONARIOS: 3
+- Valores de `empresa` (top 15, 1 únicos):
+  - Grupo Americar: 324
+
+## CR_Lead-Portillo_2023-03-01_2026-11-23_216d73e0__sin_segmento.parquet
+
+- Filas: **1003** | Columnas: 26
+- Rango de fechas: fecha respuesta: 2023-06-08 a 2026-01-23 (válidas 1003)
+- Nulos en columnas relevantes:
+  - `fecha respuesta`: 0 (0.0%)
+  - `fecha_pa`: 11 (1.1%)
+- Valores de `des_marca` (top 15, 24 únicos):
+  - USADOS: 326
+  - TOYOTA: 195
+  - PEUGEOT: 185
+  - NISSAN: 91
+  - MG: 69
+  - HYUNDAI: 46
+  - OPEL: 27
+  - <vacío>: 20
+  - Toyota: 10
+  - JAC: 8
+  - LEXUS: 6
+  - CITROEN: 5
+  - BAIC: 3
+  - Citroën: 2
+  - JEEP: 1
+- Valores de `marca` (top 15, 5 únicos):
+  - <vacío>: 992
+  - TOYOTA: 6
+  - USADOS: 3
+  - NISSAN: 1
+  - PEUGEOT: 1
+- Valores de `nombre_sucursal` (top 15, 76 únicos):
+  - <vacío>: 231
+  - USADOS AUTOSHOPING: 50
+  - PLAZA OESTE PEUGEOT: 34
+  - USADOS MOVICENTER: 33
+  - PEUGEOT LAS CONDES: 32
+  - TOYOTA MOVICENTER: 32
+  - PEUGEOT LA DEHESA: 28
+  - TOYOTA VITACURA: 27
+  - TOYOTA PIRAMIDE: 27
+  - BILBAO USADOS PORTILLO: 27
+  - GAP COSTANERA CENTER PEUGEOT: 26
+  - TOYOTA IRARRAZAVAL: 24
+  - MG PLAZA EGAÑA PORTILLO: 22
+  - USADOS ESTORIL: 22
+  - USADOS LA DEHESA: 22
+- Valores de `tipo_oportunidad` (top 15, 5 únicos):
+  - Vehiculo Nuevos: 559
+  - Vehiculos Usados: 321
+  - NUEVOS: 94
+  - <vacío>: 23
+  - USADOS: 6
+- Valores de `empresa` (top 15, 1 únicos):
+  - Grupo Americar: 1003
