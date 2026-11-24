@@ -19,22 +19,7 @@
     --hip-bg: #ece6f5;
     --accent: #b23a2a;
   }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --paper: #17161a;
-      --ink: #efebe4;
-      --ink-soft: #b7b0a6;
-      --rule: #3a3742;
-      --card: #201f25;
-      --dato: #9fc8e6;
-      --dato-bg: #1f3445;
-      --ilus: #f0c08a;
-      --ilus-bg: #3b2c1a;
-      --hip: #c7b5ef;
-      --hip-bg: #2d2640;
-      --accent: #ff8a78;
-    }
-  }
+  
   :root[data-theme="dark"] {
     --paper: #17161a;
     --ink: #efebe4;
@@ -129,9 +114,26 @@
     .chip-ilus { color:#5a3300; background:#fff; }
     .chip-hip { color:#3b2566; background:#fff; }
   }
+
+/* === Portillo claro === */
+:root{--paper:#f2faff;--card:#ffffff;--line:#cfe6f4;--rule:#cfe6f4;--brand:#0082d1;--azulP:#0082d1;--celP:#6bc1e9;--amaP:#fda902}
+body{background:#f2faff}
+.hero{background:linear-gradient(120deg,#0082d1 0%,#0a96e6 100%)!important;color:#fff!important;border-bottom:8px solid #fda902}
+.hero h1,.hero .tagline,.hero .meta,.hero .kicker,.hero .band{color:#fff}
+.band{background:#0082d1;color:#fff}
+.hero .band{background:rgba(255,255,255,.2)}
+.bicolor{display:none}
+h1,h2{font-family:'Barlow Semi Condensed','Arial Narrow',sans-serif!important;font-style:italic}
+h2{color:#0082d1!important;text-transform:uppercase}
+section,.legend{border-color:#cfe6f4!important;box-shadow:0 2px 0 #e3f3fc}
+section h2{border-left:8px solid #fda902;padding-left:12px}
+header.cover{background:linear-gradient(120deg,#bfe5f8,#e6f5fd);padding:34px 20px 26px!important;border-bottom:8px solid #fda902!important}
+header.cover h1{color:#0082d1}
+tr:nth-child(even) td{background:#f8fcff}
 </style>
-</head>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,500;1,700;1,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"></head>
 <body>
+<a href="../index.html" style="display:block;background:#212c35;color:#fff;text-decoration:none;font:600 14px Arial,sans-serif;padding:8px 20px">← Volver al índice</a>
 
 <div class="band">USO INTERNO · Personificación de la persona P2 · No publicable</div>
 
