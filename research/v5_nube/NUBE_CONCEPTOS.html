@@ -3,25 +3,49 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Nube de conceptos · Antonia y Tomás Pascual · USO INTERNO</title>
 <style>
-:root { --valor:#212c35; --dolor:#fda902; --intencion:#6bc1e9; --fondo:#ffffff; --texto:#212c35; }
-body { margin:0; padding:16px; font:15px/1.5 system-ui,sans-serif; background:var(--fondo); color:var(--texto); }
-h1 { font-size:22px; margin:0 0 4px; } h2 { font-size:19px; } h3 { font-size:16px; margin-top:24px; }
-.aviso { background:#fff4d6; border-left:4px solid var(--dolor); padding:8px 12px; font-size:13px; }
-.tabs button { border:1px solid var(--valor); background:#fff; padding:8px 14px; margin-right:6px; cursor:pointer; }
-.tabs button.on { background:var(--valor); color:#fff; }
-.panel { display:none; } .panel.on { display:block; }
-.nube { display:flex; flex-wrap:wrap; gap:10px 16px; align-items:baseline; padding:12px; border:1px solid #e3e8ee; }
-.w { font-weight:600; line-height:1.1; }
-.leyenda { font-size:13px; }
-table { border-collapse:collapse; width:100%; font-size:13px; }
-th,td { border-bottom:1px solid #e3e8ee; padding:6px 8px; text-align:left; vertical-align:top; }
-th { background:#f3f6f9; } q { display:block; margin:4px 0; }
-svg { width:100%; max-width:680px; height:auto; border:1px solid #e3e8ee; }
-footer { font-size:12px; color:#555; margin-top:32px; border-top:1px solid #e3e8ee; padding-top:8px; }
-@media (max-width:600px) { body { padding:16px; } table { display:block; overflow-x:auto; } }
-</style></head>
+:root{--azul:#0082d1;--celeste:#6bc1e9;--amarillo:#fda902;--ink:#212c35;--mute:#4f5d69;--bg:#f2faff;--claro:#e3f3fc;--line:#cfe6f4}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Barlow,Arial,sans-serif}
+.volver{display:block;background:var(--ink);color:#fff;text-decoration:none;font-size:14px;font-weight:600;padding:8px 20px}
+.volver:hover{background:var(--azul)}
+.top{background:linear-gradient(120deg,#bfe5f8,#e6f5fd);padding:26px 24px 22px;border-bottom:8px solid var(--amarillo)}
+h1,h2,h3{font-family:'Barlow Semi Condensed',Arial,sans-serif;font-style:italic;font-weight:800;text-transform:uppercase;letter-spacing:.01em}
+h1{margin:0;font-size:clamp(26px,4.4vw,42px);line-height:1.02;color:var(--azul)}
+.tagi{display:inline-block;margin-top:10px;background:var(--amarillo);color:var(--ink);font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding:3px 10px;border-radius:4px}
+.tabs,nav{display:flex;gap:10px;padding:18px 24px 6px;flex-wrap:wrap}
+.tabs button,nav button{font:700 17px 'Barlow Semi Condensed',Arial,sans-serif;font-style:italic;text-transform:uppercase;border:2px solid var(--azul);background:#fff;color:var(--azul);padding:8px 26px;border-radius:999px;cursor:pointer}
+.tabs button:hover,nav button:hover{background:var(--claro)}
+.tabs button.on,nav button.on{background:var(--azul);color:#fff}
+h2{font-size:30px;color:var(--azul);margin:22px 0 6px}h2 small{font:600 15px Barlow,Arial,sans-serif;font-style:normal;text-transform:none;color:var(--mute);margin-left:8px}
+h3{font-size:19px;color:var(--ink);margin:30px 0 10px;display:flex;align-items:center;gap:10px}
+h3::before{content:"";width:14px;height:14px;background:var(--amarillo);border-radius:3px;transform:rotate(45deg)}
+.aviso,.note{background:#fff4d6;border-left:6px solid var(--amarillo);padding:10px 16px;border-radius:6px;font-size:14px;color:var(--ink);margin:14px 24px 0}
+table{border-collapse:separate;border-spacing:0;width:100%;font-size:14px;background:#fff;border:2px solid var(--line);border-radius:12px;overflow:hidden}
+th{background:var(--claro);color:var(--azul);font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.05em;padding:10px;text-align:left}
+td{padding:9px 10px;border-top:1px solid var(--line);vertical-align:top}
+tr:nth-child(even) td{background:#f8fcff}tr:hover td{background:#fff4d6}
+q{display:block;margin:4px 0;padding-left:10px;border-left:3px solid var(--celeste);font-style:italic;quotes:none}
+svg{background:#fff;border:2px solid var(--line);border-radius:14px}
+footer{background:var(--ink);color:#fff;font-size:13px;padding:16px 24px;margin-top:36px;border:0}
+@media (max-width:600px){table{display:block;overflow-x:auto}}
+
+body>h1{margin:0}
+.panel{display:none;padding:0 24px}.panel.on{display:block}
+.leyenda{display:flex;gap:10px;flex-wrap:wrap;font-size:13px;font-weight:600;margin:6px 0 4px}
+.leyenda span{padding:3px 12px;border-radius:999px}
+.leyenda span:nth-child(1){background:var(--claro);color:#212c35!important}
+.leyenda span:nth-child(2){background:#fff1cc;color:#8a5200!important}
+.leyenda span:nth-child(3){background:#d8f0fb;color:#00629c!important}
+.nube{display:flex;flex-wrap:wrap;gap:10px 12px;align-items:center;padding:24px;background:#fff;border:2px solid var(--celeste);border-radius:16px}
+.w{font-weight:700;line-height:1.1;padding:3px 14px 5px;border-radius:999px}
+.w[style*="#212c35"]{background:var(--claro);color:#212c35!important}
+.w[style*="#fda902"]{background:#fff1cc;color:#8a5200!important}
+.w[style*="#6bc1e9"]{background:#d8f0fb;color:#00629c!important}
+svg{width:100%;max-width:720px;height:auto}
+</style><link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,700;1,800&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet"></head>
 <body>
-<h1>Nube de conceptos · Antonia y Tomás Pascual</h1>
+<a class="volver" href="../../index.html">← Volver al índice</a>
+<div class="top"><h1>Nube de conceptos · Antonia y Tomás Pascual</h1><span class="tagi">Uso interno</span></div>
 <p class="aviso"><strong>USO INTERNO.</strong> Contiene verbatims de clientes (anonimizados, sin nombres). No publicar ni pegar en piezas públicas.
 Fase 1 del PROMPT_v5 · método completo en research/v5_nube/METODO.md.</p>
 <nav class="tabs"><button class="on" data-tab="antonia">Antonia</button><button data-tab="tomas">Tomás</button></nav>
